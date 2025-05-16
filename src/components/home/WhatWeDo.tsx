@@ -30,23 +30,23 @@ export const WhatWeDoHome = () => {
           <div className="m-auto grid grid-cols-2 gap-6 max-lg:grid-cols-1"> 
             <WhatWeDoCard 
               image={<TiSpiral />}
-              title={"Producción de membranas estándar y personalizadas"}
-              subtitle={"Diseñamos y fabricamos membranas de alta eficiencia, adaptadas a cada necesidad."}
+              title={t("whatWeDo.cards.card1.title")}
+              subtitle={t("whatWeDo.cards.card1.subtitle")}
             />
             <WhatWeDoCard 
               image={<MdOutlineRecycling />}
-              title={"Separación, concentración y recuperación"}
-              subtitle={"Soluciones sostenibles para aprovechar al máximo cada recurso."}
+              title={t("whatWeDo.cards.card2.title")}
+              subtitle={t("whatWeDo.cards.card2.subtitle")}
             />
             <WhatWeDoCard 
               image={<IoWater />}
-              title={"Tratamiento de aguas primarias y residuales"}
-              subtitle={"Procesos fiables para aguas limpias y reutilizables."}
+              title={t("whatWeDo.cards.card3.title")}
+              subtitle={t("whatWeDo.cards.card3.subtitle")}
             />
             <WhatWeDoCard 
               image={<MdFactory />}
-              title={"Diseño e implementación de instalaciones industriales"}
-              subtitle={"Plantas a medida con la última tecnología."}
+              title={t("whatWeDo.cards.card4.title")}
+              subtitle={t("whatWeDo.cards.card4.subtitle")}
             />
           </div>
 

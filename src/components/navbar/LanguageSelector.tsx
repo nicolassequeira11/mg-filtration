@@ -5,21 +5,21 @@ import { ButtonLanguageSelection } from '../elements/Buttons';
 const languages = [
   {
     id: 1,
-    name: "ES",
-    value: "ES",
-    avatar: "https://flagcdn.com/es.svg",
-  },
-  {
-    id: 2,
     name: "EN",
     value: "EN",
     avatar: "https://flagcdn.com/gb.svg",
   },
   {
-    id: 3,
+    id: 2,
     name: "IT",
     value: "IT",
     avatar: "https://flagcdn.com/it.svg",
+  },
+    {
+    id: 3,
+    name: "ES",
+    value: "ES",
+    avatar: "https://flagcdn.com/es.svg",
   },
   {
     id: 4,

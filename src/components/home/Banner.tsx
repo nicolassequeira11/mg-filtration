@@ -3,7 +3,7 @@ import BannerHome from "../../assets/banner-2.jpg"
 export const Bannerhome = () => {
   return(
     <div className="">
-      <div className="h-[75vh] flex">
+      <div className="h-[75vh] max-md:h-[30vh] flex">
         <img 
           src={BannerHome} 
           alt="" 

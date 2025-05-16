@@ -18,16 +18,16 @@ export const AboutUsHome = () => {
       <div className="mt-12 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12">
         <div className="w-1/2 max-lg:w-full">
           <p className="max-lg:-mt-6">
-            M.G. Filtration Technology Ltd. nace de un proyecto italiano destinado a diseñar y producir filtros con membrana mediante tecnología de filtración tangencial. Además, desarrollamos e implementamos las correspondientes instalaciones para cada necesidad.
+            {t("aboutUs.text1")}
           </p>
           <p className="mt-6">
-            Nos enfocamos en brindar la máxima asistencia técnica y profesionalidad a nuestros clientes, desarrollando procesos y plantas de separación adaptadas a cada industria.
+            {t("aboutUs.text2")}
           </p>
           <p className="mt-6">
-            Trabajamos en el desarrollo y aplicación de soluciones globales para el tratamiento de aguas y productos líquidos en los sectores industrial y civil, empleando tecnologías como: Microfiltración, Ultrafiltración, Nanofiltración y Ósmosis inversa.
+            {t("aboutUs.text3")}
           </p>
           <p className="mt-6">
-            Gracias a nuestro laboratorio químico, físico y biológico, y a nuestra experiencia técnica, hemos desarrollado una serie de plantas piloto que permiten realizar pruebas preliminares sobre pequeños volúmenes. Así seleccionamos la membrana más adecuada y optimizamos los parámetros del proceso a escala industrial.
+            {t("aboutUs.text4")}
           </p>
         </div>
 

@@ -19,7 +19,7 @@ export const Navbar = () => {
   // }
 
   return(
-    <header className="max-lg:top-0 sticky bg-white/95 max-lg:bg-white shadow-md">
+    <header className="max-lg:top-0 sticky top-0 bg-white/95 max-lg:bg-white shadow-md">
       <nav 
         className="flex text-center justify-between 
         w-[70rem] max-w-[95vw] max-lg:w-11/12 mx-auto py-6"

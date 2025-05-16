@@ -29,7 +29,7 @@ export const WhyHome = () => {
         />
 
         <p className="mt-6 w-[80%] max-md:w-full text-center mx-auto">
-          A diferencia de métodos tradicionales de separación (precipitación química, fangos activos, destilación, evaporación, crio-separación, etc.), la tecnología de membranas ofrece beneficios clave.
+          {t("why.subtitle")}
         </p>
 
         {/* Content */}
@@ -48,23 +48,23 @@ export const WhyHome = () => {
           <div className="flex flex-col gap-6 w-1/2 max-lg:w-full items-end max-lg:items-center">
             <WhyCard 
               image={<SlChemistry />}
-              title={"Separación física"}
-              subtitle={"Sin uso de químicos"}
+              title={t("why.cards.card1.title")}
+              subtitle={t("why.cards.card1.subtitle")}
             />
             <WhyCard 
               image={<SlEnergy />}
-              title={"Bajo consumo energético"}
-              subtitle={"Solo presión, no calor"}
+              title={t("why.cards.card2.title")}
+              subtitle={t("why.cards.card2.subtitle")}
             />
             <WhyCard 
               image={<HiOutlineRefresh />}
-              title={"Reutilización del agua"}
-              subtitle={"Agua lista para reusar"}
+              title={t("why.cards.card3.title")}
+              subtitle={t("why.cards.card3.subtitle")}
             />
             <WhyCard 
               image={<IoDiamondOutline />}
-              title={"Recuperación de compuestos"}
-              subtitle={"Valor añadido desde el residuo"}
+              title={t("why.cards.card4.title")}
+              subtitle={t("why.cards.card4.subtitle")}
             />    
           </div>  
         </div>

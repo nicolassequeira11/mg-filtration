@@ -11,7 +11,7 @@ export const Footer = () => {
   return(
     <div className="bottom-0">
       <div 
-        className="bg-black-mg/80 py-6 flex
+        className="bg-black-mg/80 py-8 flex
           bg-[url(./assets/background-footer-4.jpg)] bg-bottom bg-cover"
       >
         <div className="flex max-md:flex-col-reverse mx-auto max-md:w-11/12 w-[70rem] max-w-[95vw] justify-between">
@@ -68,7 +68,7 @@ export const Footer = () => {
       </div>
       
       {/* Credits */}
-      <div className="bg-[#070508] py-3">
+      <div className="bg-[#070508] py-4">
         <div 
           className="flex justify-between text-center text-white mx-auto w-[70rem] max-w-[95vw]
             max-md:flex-col max-md:w-11/12"

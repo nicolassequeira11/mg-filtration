@@ -1,4 +1,63 @@
 {
-  "welcome": "Benvenuto",
-  "select_language": "Seleziona una lingua"
+  "navbarLinks": {
+    "Home": "Inizio",
+    "Gallery": "Galleria",
+    "Contact": "Contatto"
+  },
+  "aboutUs": {
+    "title": "Chi siamo",
+    "text1": "M.G. Filtration Technology Ltd. nasce da un progetto italiano volto a progettare e produrre filtri a membrana mediante tecnologia di filtrazione tangenziale. Inoltre, sviluppiamo e realizziamo gli impianti corrispondenti per ogni esigenza.",
+    "text2": "Ci concentriamo nel fornire la massima assistenza tecnica e professionalità ai nostri clienti, sviluppando processi e impianti di separazione adattati a ogni settore.",
+    "text3": "Lavoriamo nello sviluppo e nell'applicazione di soluzioni globali per il trattamento delle acque e dei liquidi nei settori industriale e civile, utilizzando tecnologie come: Microfiltrazione, Ultrafiltrazione, Nanofiltrazione e Osmosi inversa.",
+    "text4": "Grazie al nostro laboratorio chimico, fisico e biologico, e alla nostra esperienza tecnica, abbiamo sviluppato una serie di impianti pilota che permettono di effettuare prove preliminari su piccoli volumi. In questo modo selezioniamo la membrana più adatta e ottimizziamo i parametri del processo su scala industriale."
+  },
+  "whatWeDo": {
+    "title": "Cosa facciamo",
+    "cards": {
+      "card1": {
+        "title": "Produzione di membrane standard e personalizzate",
+        "subtitle": "Progettiamo e produciamo membrane ad alta efficienza, adattate a ogni esigenza."
+      },
+      "card2": {
+        "title": "Separazione, concentrazione e recupero",
+        "subtitle": "Soluzioni sostenibili per sfruttare al massimo ogni risorsa."
+      },
+      "card3": {
+        "title": "Trattamento di acque primarie e reflue",
+        "subtitle": "Processi affidabili per acque pulite e riutilizzabili."
+      },
+      "card4": {
+        "title": "Progettazione e realizzazione di impianti industriali",
+        "subtitle": "Impianti su misura con le tecnologie più avanzate."
+      }
+    }
+  },
+  "industries": {
+    "title": "Più qualità per la tua industria",
+    "text1": "Enologia",
+    "text2": "Alimenti e bevande",
+    "text3": "Farmaceutica"
+  },
+  "why": {
+    "title": "Perché scegliere la filtrazione a membrana?",
+    "subtitle": "A differenza dei metodi tradizionali di separazione (precipitazione chimica, fanghi attivi, distillazione, evaporazione, crioseparazione, ecc.), la tecnologia a membrana offre vantaggi chiave.",
+    "cards": {
+      "card1": {
+        "title": "Separazione fisica",
+        "subtitle": "Senza uso di sostanze chimiche"
+      },
+      "card2": {
+        "title": "Basso consumo energetico",
+        "subtitle": "Solo pressione, niente calore"
+      },
+      "card3": {
+        "title": "Riutilizzo dell'acqua",
+        "subtitle": "Acqua pronta per il riutilizzo"
+      },
+      "card4": {
+        "title": "Recupero dei composti",
+        "subtitle": "Valore aggiunto dai residui"
+      }
+    }
+  }
 }
