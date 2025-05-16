@@ -1,0 +1,38 @@
+{
+  "navbarLinks": {
+    "Home": "Home",
+    "Gallery": "Gallery",
+    "Contact": "Contact"
+  },
+  "aboutUs": {
+    "title": "About us"
+  },
+  "whatWeDo": {
+    "title": "What we do"
+  },
+  "industries": {
+    "title": "More quality for your industry"
+  },
+  "why": {
+    "title": "Why choose membrane filtration?",
+    "subtitle": "A diferencia de métodos tradicionales de separación (precipitación química, fangos activos, destilación, evaporación, crio-separación, etc.), la tecnología de membranas ofrece beneficios clave.",
+    "cards": {
+      "card1": {
+        "title": "Separación física",
+        "subtitle": "Sin uso de químicos"
+      },
+      "card2": {
+        "title": "Bajo consumo energético",
+        "subtitle": "Solo presión, no calor"
+      },
+      "card3": {
+        "title": "Reutilización del agua",
+        "subtitle": "Agua lista para reusar"
+      },
+      "card4": {
+        "title": "Recuperación de compuestos",
+        "subtitle": "Valor añadido desde el residuo"
+      }
+    }
+  }
+}

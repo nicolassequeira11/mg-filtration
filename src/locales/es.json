@@ -1,0 +1,19 @@
+{
+  "navbarLinks": {
+    "Home": "Inicio",
+    "Gallery": "Galería",
+    "Contact": "Contacto"
+  },
+  "aboutUs": {
+    "title": "Sobre nosotros"
+  },
+  "whatWeDo": {
+    "title": "Lo que hacemos"
+  },
+  "industries": {
+    "title": "Más calidad para tu industria"
+  },
+  "why": {
+    "title": "¿Por qué elegir la filtración por membrana?"
+  }
+}

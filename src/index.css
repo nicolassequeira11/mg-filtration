@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-red-mg: #ed2324;
+  --color-gray-mg: #858585;
+  --color-black-mg: #000000;
+  --font-worksans: "Work Sans", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
