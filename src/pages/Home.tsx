@@ -3,6 +3,7 @@ import { AboutUsHome } from "../components/home/AboutUs"
 import { IndustriesHome } from "../components/home/Industries"
 import { WhyHome } from "../components/home/Why"
 import { WhatWeDoHome } from "../components/home/WhatWeDo"
+import { PlantsHome } from "../components/home/Plants"
 
 export const Home = () => {
   return(
@@ -12,6 +13,7 @@ export const Home = () => {
       <WhatWeDoHome />
       <IndustriesHome />
       <WhyHome />
+      <PlantsHome />
     </div>
   )
 }

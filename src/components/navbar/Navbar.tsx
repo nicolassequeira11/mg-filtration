@@ -19,7 +19,7 @@ export const Navbar = () => {
   // }
 
   return(
-    <header className="max-lg:top-0 sticky top-0 bg-white/95 max-lg:bg-white shadow-md">
+    <header className="max-lg:top-0 sticky top-0 z-40 bg-white/95 max-lg:bg-white shadow-md">
       <nav 
         className="flex text-center justify-between 
         w-[70rem] max-w-[95vw] max-lg:w-11/12 mx-auto py-6"
@@ -47,8 +47,8 @@ export const Navbar = () => {
           <Link to="/">
             {t('navbarLinks.Home')}
           </Link>
-          <Link to="/gallery">
-            {t('navbarLinks.Gallery')}
+          <Link to="/membranes/microfiltration">
+            {t('navbarLinks.Filters')}
           </Link>
           <Link to="/contact">
             {t('navbarLinks.Contact')}

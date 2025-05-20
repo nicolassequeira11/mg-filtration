@@ -1,6 +1,7 @@
 import { Listbox, ListboxButton, ListboxOption, ListboxOptions } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import { CheckIcon } from '@heroicons/react/20/solid'
+import { Link } from 'react-router-dom';
 
 type LanguageOption = {
   id: number;
@@ -82,5 +83,39 @@ export const ButtonLanguageSelection = ({ selected, setSelected, options }: Butt
         </ListboxOptions>
       </div>
     </Listbox>
+  )
+}
+
+type Button = {
+  textButton: string;
+  linkButton: string;
+}
+
+export const Button = ({textButton, linkButton}: Button) => {
+  return(
+    <div>
+      <Link 
+        to={linkButton} 
+        className="inline-flex items-center px-3 py-2 text-sm font-medium text-center 
+          text-white bg-red-mg rounded-lg hover:bg-red-mg/80 focus:ring-4 focus:outline-none"
+      >
+        {textButton}
+        <svg 
+          className="rtl:rotate-180 w-3.5 h-3.5 ms-2" 
+          aria-hidden="true" 
+          xmlns="http://www.w3.org/2000/svg" 
+          fill="none" 
+          viewBox="0 0 14 10"
+        >
+          <path 
+            stroke="currentColor" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            stroke-width="2" 
+            d="M1 5h12m0 0L9 1m4 4L9 9"
+          />
+        </svg>
+      </Link>
+    </div>
   )
 }

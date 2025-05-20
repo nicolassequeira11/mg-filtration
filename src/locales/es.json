@@ -1,7 +1,12 @@
 {
   "navbarLinks": {
     "Home": "Inicio",
-    "Gallery": "Galería",
+    "Filters": "Tipos de filtros",
+    "Microfiltration": "Microfiltración",
+    "Ultrafiltration": "Ultrafiltración",
+    "Nanofiltration": "Nanofiltración",
+    "ReverseOsmosis": "Ósmosis Reversa",
+    "Stabilization": "Estabilización",
     "Contact": "Contacto"
   },
   "aboutUs": {
@@ -57,6 +62,257 @@
       "card4": {
         "title": "Recuperación de compuestos",
         "subtitle": "Valor añadido desde el residuo"
+      }
+    }
+  },
+  "plants": {
+    "title": "Nuestros tipos de filtración",
+    "button": "Saber más",
+    "cards": {
+      "card1": {
+        "title": "Microfiltración",
+        "subtitle": "Filtración de precisión para vinos, bebidas, alimentos y productos farmacéuticos. Elimina sólidos, bacterias y turbidez sin alterar aromas ni propiedades del producto.",
+        "subtitleContent": "Las plantas tipo MTW se utilizan en enología, la industria de las bebidas, la alimentaria y la farmacéutica.",
+        "content": {
+          "applications": {
+            "title": "Aplicaciones por industria",
+            "eonology": [
+              "Diseñadas para filtrar mostos, vinos y vinagres en fase de clarificación.",
+              "Procesan productos con una turbidez de hasta 4000 NTU, garantizando una salida con turbidez < 1 NTU.",
+              "Índice de filtrado: entre 5 y 9.",
+              "Elimina el uso de coadyuvantes como tierras de diatomeas, placas, cartuchos, etc.",
+              "Sustituye sistemas tradicionales como centrífugas o filtros lentos."
+            ],
+            "beveragesAndFood": [
+              "Microfiltración de aguas de superficie (eliminación del 99,99% de bacterias).",
+              "Reducción de turbidez a < 0,001 NTU.",
+              "Microfiltración previa al embotellado.",
+              "Microfiltración de leche y suero de leche a temperatura ambiente.",
+              "Microfiltración de productos líquidos alimentarios para eliminar sólidos en suspensión."
+            ],
+            "pharmaceuticals": [
+              "Microfiltración de soluciones fisiológicas.",
+              "Microfiltración de caldos de fermentación.",
+              "Microfiltración de medicinas líquidas para eliminación de bacterias y sólidos en suspensión."
+            ]
+          },
+          "advantages": {
+            "title": "Tecnología y ventajas técnicas",
+            "list": [
+              "Membranas de nueva generación sin carga eléctrica.",
+              "Grados de filtración: 0,2 – 0,45 – 0,8 micras.",
+              "Conservación de los compuestos aromáticos.",
+              "Recuperación del producto tratado > 99%.",
+              "Sin aumento de temperatura del producto.",
+              "Configuración disponible: manual, semiautomática o automática."
+            ],
+            "list2": {
+              "text": "Parámetros que se mantienen inalterados:",
+              "list": [
+                "Densidad óptica",
+                "Polifenoles totales",
+                "Antocianinas totales",
+                "Extracto seco neto y total",
+                "Cenizas",
+                "Alcohol",
+                "Azúcares",
+                "Acidez total"
+              ]
+            }
+          },
+          "benefits": {
+            "title": "Beneficios",
+            "list": [
+              "Alta eficiencia sin alterar el producto.",
+              "Sin necesidad de aditivos o coadyuvantes.",
+              "Bajo impacto térmico.",
+              "Mantenimiento de parámetros organolépticos.",
+              "Ahorro en insumos y residuos."
+            ]
+          }
+        }
+      },
+      "card2": {
+        "title": "Ultrafiltración",
+        "subtitle": "Tecnología avanzada para separar componentes como proteínas, polifenoles o colorantes en vinos, alimentos y productos farmacéuticos, sin alterar sus propiedades originales.",
+        "subtitleContent": "Las plantas de ultrafiltración de M.G. Filtration Technology se aplican en enología, la industria de las bebidas, la alimentaria y la farmacéutica.",
+        "content": {
+          "applications": {
+            "title": "Aplicaciones por industria",
+            "eonology": [
+              "Tratamiento de mostos, vinos y vinagres.",
+              "Obtención de dos productos (permeado y concentrado) organolépticamente idénticos al original, pero distintos en contenido de antocianos y polifenoles.",
+              "Permite una decoloración total o parcial sin alterar otros parámetros del producto.",
+              "Sustituye el uso tradicional de carbón activo.",
+              "Factor de recuperación: entre el 30% y el 70%.",
+              "Construcción en acero inoxidable AISI 316.",
+              "Disponible en configuración semiautomática o automática."
+            ],
+            "beveragesAndFood": [
+              "Concentración de proteínas mediante separación física.",
+              "Mantenimiento de los valores funcionales y nutricionales del producto inicial."
+            ],
+            "pharmaceuticals": [
+              "Decoloración de fármacos genéricos en fase líquida.",
+              "Despirogenización efectiva de los productos tratados."
+            ]
+          },
+          "advantages": {
+            "title": "Tecnología y ventajas técnicas",
+            "list": [
+              "Proceso físico desarrollado en 2013 por M.G. Filtration Technology.",
+              "Sustitución total del carbón activo con ventajas significativas: Sin coste de compra de carbón, eliminación del coste de gestión de residuos y conservación de aromas y color al evitar pérdidas por absorción química.",
+              "Separación física con membranas en lugar de procesos químicos."
+            ]
+          },
+          "benefits": {
+            "title": "Beneficios",
+            "list": [
+              "Decoloración precisa sin agentes químicos.",
+              "Conservación de propiedades organolépticas.",
+              "Reducción de costes operativos y de residuos.",
+              "Sistema adaptable a distintos sectores.",
+              "Alternativa segura y eficiente al uso del carbón activo."
+            ]
+          }
+        }
+      },
+      "card3": {
+        "title": "Nanofiltración",
+        "subtitle": "Soluciones versátiles para concentrar, purificar o eliminar compuestos específicos en vinos, alimentos y productos farmacéuticos, trabajando a alta presión con máxima precisión.",
+        "subtitleContent": "Las plantas tipo MOVIRO de M.G. Filtration Technology se aplican en enología, en la industria de las bebidas, la alimentaria y la farmacéutica.",
+        "content": {
+          "applications": {
+            "title": "Aplicaciones por industria",
+            "eonology": [
+              "Extracción de agua y azúcares.",
+              "Neutralización de ácidos: málico, láctico, tartárico, acético y acidez total.",
+              "Eliminación de taninos verdes, pirazinas, etilfenoles y moléculas asociadas a malos olores (como Brettanomyces).",
+              "Concentración de antocianinas, polifenoles, extractos y alcohol.",
+              "Desalcoholización parcial o total.",
+              "Estabilización tartárica.",
+              "Concentración del grado acético."
+            ],
+            "beveragesAndFood": [
+              "Producción de agua desmineralizada.",
+              "Concentración de jugos, líquidos alimentarios, colorantes y proteínas.",
+              "Extracción de agua.",
+              "Separación y concentración de sales monovalentes y trivalentes."
+            ],
+            "pharmaceuticals": [
+              "Producción de agua desmineralizada.",
+              "Purificación y decoloración de soluciones químicas.",
+              "Concentración de vitaminas y principios activos.",
+              "Purificación de caldos de fermentación."
+            ]
+          },
+          "advantages": {
+            "title": "Tecnología y ventajas técnicas",
+            "list": [
+              "Capacidad de trabajo con presiones de 3 a 100 bar, según el proceso y membrana utilizada.",
+              "Compatible con membranas en espiral de Ultrafiltración, Nanofiltración y Ósmosis Inversa.",
+              "Construcción en acero inoxidable AISI 316.",
+              "Configuración disponible: manual, semiautomática o automática.",
+              "Capacidad de concentración instantánea entre 50% y 75%.",
+              "Presión de operación máxima: 100 atmósferas."
+            ]
+          },
+          "benefits": {
+            "title": "Beneficios",
+            "list": [
+              "Gran versatilidad según tipo de membrana (UF, NF, RO).",
+              "Alta capacidad de concentración con bajo impacto en la calidad del producto.",
+              "Sustitución de procesos químicos por separación física.",
+              "Eficiencia energética y operativa gracias a su diseño.",
+              "Apta para múltiples industrias con un solo sistema adaptable."
+            ]
+          }
+        }
+      },
+      "card4": {
+        "title": "Ósmosis Inversa",
+        "subtitle": "Tecnología de alta presión para purificar, concentrar o separar componentes en vinos, alimentos y productos farmacéuticos, garantizando precisión y rendimiento superior.",
+        "subtitleContent": "Las plantas tipo MOVIRO de M.G. Filtration Technology se utilizan en enología, en la industria de las bebidas, la alimentaria y la farmacéutica.",
+        "content": {
+          "applications": {
+            "title": "Aplicaciones por industria",
+            "eonology": [
+              "Extracción de agua y azúcares.",
+              "Neutralización de ácidos: málico, láctico, tartárico, acético y acidez total y otros ácidos en exceso.",
+              "Eliminación de taninos verdes, pirazinas, etilfenoles y moléculas asociadas a malos olores (como Brettanomyces).",
+              "Concentración de antocianinas, polifenoles, extractos, alcohol y grado acético.",
+              "Desalcoholización parcial o total.",
+              "Estabilización tartárica.",
+              "Desalcoholización parcial o total."
+            ],
+            "beveragesAndFood": [
+              "Producción de agua desmineralizada.",
+              "Concentración de jugos, líquidos alimentarios, colorantes y proteínas.",
+              "Extracción de agua.",
+              "Separación y concentración de sales monovalentes y trivalentes."
+            ],
+            "pharmaceuticals": [
+              "Producción de agua desmineralizada.",
+              "Purificación y decoloración de soluciones químicas.",
+              "Concentración de vitaminas y principios activos.",
+              "Purificación de caldos de fermentación."
+            ]
+          },
+          "advantages": {
+            "title": "Tecnología y ventajas técnicas",
+            "list": [
+              "Rango de presión operativa: 3 a 100 bar, según el proceso.",
+              "Uso de membranas en espiral de ósmosis inversa.",
+              "Construcción 100% en acero inoxidable AISI 316.",
+              "Configuración personalizable: manual, semiautomática o automática.",
+              "Capacidad de concentración instantánea entre 50% y 75%.",
+              "Presión de operación máxima: 100 atmósferas."
+            ]
+          },
+          "benefits": {
+            "title": "Beneficios",
+            "list": [
+              "Procesos de alta eficiencia mediante separación por membrana.",
+              "Permite trabajar a altas presiones con seguridad.",
+              "Conservación de parámetros organolépticos en productos sensibles.",
+              "Eliminación selectiva de compuestos indeseados sin aditivos químicos.",
+              "Adaptable a múltiples industrias con un solo sistema modular."
+            ]
+          }
+        }
+      },
+      "card5": {
+        "title": "Estabilización",
+        "subtitle": "Solución innovadora para eliminar tartratos sin alterar el vino. Estabiliza vinos blancos, rosados, tintos y mostos a temperatura ambiente, conservando sus propiedades organolépticas y reduciendo costes operativos.",
+        "subtitleContent": "Las plantas tipo MOVIRO de M.G. Filtration Technology se utilizan en enología, en la industria de las bebidas, la alimentaria y la farmacéutica.",
+        "content": {
+          "why": {
+            "title": "¿Por qué es necesaria la estabilización?",
+            "text": "Tras la precipitación del bitartrato de potasio, todos los vinos deben someterse a un proceso de estabilización tartárica para evitar cristalizaciones indeseadas en botella. Las plantas desarrolladas por M.G. Filtration Technology ofrecen una alternativa moderna y eficaz a los métodos tradicionales como Resinas de intercambio iónico, Electrodiálisis y Sedimentación en frío."
+          },
+          "howWork": {
+            "title": "¿Cómo funciona la estabilización por membrana?",
+            "text1": "El sistema se basa en separación por membrana, logrando la sobresaturación controlada de ácido tartárico y potasio. Esto provoca la formación de cristales, los cuales son eliminados mediante filtros de nueva generación.",
+            "text2": "Posteriormente, el vino se recombina con el agua, y mediante un sensor de conductividad, se determina el punto de equilibrio ideal para garantizar la estabilidad tartárica del producto final."
+          },
+          "version": {
+            "title": "Versión para bodegas pequeñas",
+            "text": "Para pequeñas bodegas, se ha desarrollado una versión compacta del sistema, que utiliza dos plantas adyacentes. Aunque no es de funcionamiento continuo, garantiza los beneficios de la estabilización por membrana con una inversión optimizada."
+          },
+          "benefits": {
+            "title": "Beneficios",
+            "list": [
+              "Apto para vinos blancos, rosados, tintos y mostos.",
+              "Sin estrés térmico (temperatura prácticamente constante).",
+              "Se trabaja a temperatura ambiente.",
+              "Conserva las características organolépticas (estructura y aroma).",
+              "Eliminación precisa de tartratos según el requerimiento del cliente.",
+              "Bajo consumo energético.",
+              "Costes operativos reducidos.",
+              "Funcionamiento automático y continuo."
+            ]
+          }
+        }
       }
     }
   }

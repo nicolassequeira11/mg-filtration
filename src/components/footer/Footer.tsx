@@ -48,7 +48,7 @@ export const Footer = () => {
                   className="text-[20px] w-fit" 
                 />
                 <p className="text-sm">
-                  +359 892466013
+                  +359 884315151
                 </p>
               </div>
 
