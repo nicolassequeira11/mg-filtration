@@ -84,9 +84,9 @@ export const Navbar = () => {
             <Link to="/" className="text-[17px]">
               {t('navbarLinks.Home')}
             </Link>
-            <Link to="/gallery" className="text-[17px]">
-              {t('navbarLinks.Gallery')}
-            </Link>
+          <Link to="/membranes/microfiltration" className="text-[17px]">
+            {t('navbarLinks.Filters')}
+          </Link>
             <Link to="/contact" className="text-[17px]">
               {t('navbarLinks.Contact')}
             </Link>
