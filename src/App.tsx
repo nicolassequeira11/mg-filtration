@@ -9,6 +9,7 @@ import { UltraFiltration } from './pages/UltraFiltration'
 import { NanoFiltration } from './pages/NanoFiltration'
 import { ReverseOsmosisFiltration } from './pages/ReverseOsmosisFiltration'
 import { Stabilization } from './pages/Stabilization'
+import { AboutUs } from './pages/AboutUs'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/membranes/nanofiltration" element={<NanoFiltration />} />
         <Route path="/membranes/reverse-osmosis" element={<ReverseOsmosisFiltration />} />
         <Route path="/membranes/stabilization" element={<Stabilization />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
   )

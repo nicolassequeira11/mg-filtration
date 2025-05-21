@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { ButtonDropdown } from "../elements/Buttons";
 
 export const Navbar = () => {
   const { t } = useTranslation();
@@ -14,15 +15,38 @@ export const Navbar = () => {
     setIsMenuOpen((prev) => !prev) // Alternar el estado
   };
 
-  // const handleClickLink = () => {
-  //   setIsMenuOpen(false)
-  // }
+  const handleClickLink = () => {
+    setIsMenuOpen(false)
+  }
+
+  const links = [
+    {
+      name: t('navbarLinks.Microfiltration'),
+      link: "/membranes/microfiltration"
+    },
+    {
+      name: t('navbarLinks.Ultrafiltration'),
+      link: "/membranes/ultrafiltration"
+    },
+    {
+      name: t('navbarLinks.Nanofiltration'),
+      link: "/membranes/nanofiltration"
+    },
+    {
+      name: t('navbarLinks.ReverseOsmosis'),
+      link: "/membranes/reverse-osmosis"
+    },
+    {
+      name: t('navbarLinks.Stabilization'),
+      link: "/membranes/stabilization"
+    },
+  ]
 
   return(
     <header className="max-lg:top-0 sticky top-0 z-40 bg-white/95 max-lg:bg-white shadow-md">
       <nav 
-        className="flex text-center justify-between 
-        w-[70rem] max-w-[95vw] max-lg:w-11/12 mx-auto py-6"
+        className="flex text-center justify-between
+        w-[80rem] max-w-[95vw] max-lg:w-11/12 mx-auto py-6"
       >
 
         {/* Logo */}
@@ -30,25 +54,29 @@ export const Navbar = () => {
           to="/" 
           className="w-2/6 my-auto max-sm:w-7/12"
         >
-          <div className="my-auto text-[30px] font-[800] max-lg:text-[20px]">
+          <div className="my-auto">
             <img 
               src={Logo} 
               alt="MG Filtration Technology" 
-              className="object-contain mx-auto"
+              className="object-contain mx-auto w-[80%]"
             />
           </div>
         </Link>
 
         {/* Links */}
         <div 
-          className="w-4/6 grid-cols-4 grid m-auto font-semibold font-raleway text-end
-            max-md:hidden"
+          className="grid-cols-4 w-fit grid m-auto gap-6 font-semibold font-raleway text-center
+            max-lg:hidden"
         >
           <Link to="/">
             {t('navbarLinks.Home')}
           </Link>
-          <Link to="/membranes/microfiltration">
-            {t('navbarLinks.Filters')}
+          <ButtonDropdown 
+            title={t('navbarLinks.Filters')}
+            array={links}
+          />
+          <Link to="/aboutus">
+            {t('navbarLinks.AboutUs')}
           </Link>
           <Link to="/contact">
             {t('navbarLinks.Contact')}
@@ -56,7 +84,7 @@ export const Navbar = () => {
         </div>
 
         {/* Language */}
-        <div className="w-1/6 m-auto text-end max-lg:hidden">
+        <div className="m-auto text-end max-lg:hidden flex justify-end mr-0">
           <LanguageSelector />
         </div>
 
@@ -79,15 +107,18 @@ export const Navbar = () => {
 
         {isMenuOpen ? 
           <div 
-            className="w-full py-6 mx-auto absolute max-lg:gap-6 top-[75px] left-0 right-0 z-50 flex flex-col bg-white"
+            className="w-full py-6 mx-auto absolute max-lg:gap-6 top-[75px] left-0 right-0 z-50 
+              flex flex-col bg-white"
           >
-            <Link to="/" className="text-[17px]">
+            <Link to="/" className="text-[17px]" onClick={handleClickLink}>
               {t('navbarLinks.Home')}
             </Link>
-          <Link to="/membranes/microfiltration" className="text-[17px]">
-            {t('navbarLinks.Filters')}
-          </Link>
-            <Link to="/contact" className="text-[17px]">
+            <ButtonDropdown 
+              onClick={handleClickLink}
+              title={t('navbarLinks.Filters')}
+              array={links}
+            />
+            <Link to="/contact" className="text-[17px]" onClick={handleClickLink}>
               {t('navbarLinks.Contact')}
             </Link>
           </div>

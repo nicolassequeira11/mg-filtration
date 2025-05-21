@@ -1,4 +1,4 @@
-import { HeaderMembrane } from "../components/elements/Headers"
+import { Header } from "../components/elements/Headers"
 import { useTranslation } from "react-i18next"
 import { ApplicationsLayout } from "../components/membranes/Applications"
 import { AdvantagesLayout } from "../components/membranes/Advantages"
@@ -12,9 +12,8 @@ export const NanoFiltration = () => {
   return(
     <div>
       {/* Header */}
-      <HeaderMembrane 
+      <Header 
         text={t("plants.cards.card3.title")}
-        description={t("plants.cards.card3.subtitleContent")}
       />
 
       {/* Applications */}

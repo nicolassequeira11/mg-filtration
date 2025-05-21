@@ -24,7 +24,7 @@ export const ButtonLanguageSelection = ({ selected, setSelected, options }: Butt
     >
       <div className="relative w-fit">
         <ListboxButton 
-          className="grid w-fit cursor-default grid-cols-1 rounded-md bg-white 
+          className="grid w-fit cursor-default grid-cols-1 rounded-md focus:outline-0
             py-1.5 pr-2 pl-3 text-left text-gray-900  
             sm:text-sm/6"
         >
@@ -119,3 +119,58 @@ export const Button = ({textButton, linkButton}: Button) => {
     </div>
   )
 }
+
+import { Menu, MenuButton, MenuItem, MenuItems, Transition } from '@headlessui/react'
+import { Fragment } from 'react'
+
+type ButtonDropdown = {
+  title: string;
+  array: {
+    name: string;
+    link: string;
+  }[];
+  onClick?: () => void;
+}
+
+export const ButtonDropdown = ({ title, array, onClick }: ButtonDropdown) => {
+  return (
+    <Menu as="div" className="relative inline-block text-left m-auto">
+      <div>
+        <MenuButton className="inline-flex w-full justify-center gap-x-1.5 focus:outline-0 max-lg:text-[17px] max-lg:font-normal font-semibold text-gray-900">
+          {title}
+          <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5 text-gray-400 m-auto" />
+        </MenuButton>
+      </div>
+
+      <Transition
+        as={Fragment}
+        enter="transition ease-out duration-100"
+        enterFrom="transform opacity-0 scale-95"
+        enterTo="transform opacity-100 scale-100"
+        leave="transition ease-in duration-75"
+        leaveFrom="transform opacity-100 scale-100"
+        leaveTo="transform opacity-0 scale-95"
+      >
+        <MenuItems className="absolute right-0 z-10 mt-2 w-44 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none max-lg:relative max-lg:shadow-none max-lg:text-center max-lg:ring-0 max-lg:w-fit max-lg:text-[17px]">
+          <div className="py-1">
+            {array.map((item, index) => (
+              <MenuItem key={index}>
+                {({ active }) => (
+                  <Link
+                    to={item.link}
+                    onClick={onClick}
+                    className={`block px-4 py-2 max-lg:py-4 text-sm text-gray-700 ${
+                      active ? 'bg-gray-100 text-gray-900' : ''
+                    }`}
+                  >
+                    {item.name}
+                  </Link>
+                )}
+              </MenuItem>
+            ))}
+          </div>
+        </MenuItems>
+      </Transition>
+    </Menu>
+  );
+};

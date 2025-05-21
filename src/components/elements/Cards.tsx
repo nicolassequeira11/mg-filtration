@@ -14,7 +14,7 @@ export const IndustriesCard = ( {image, text}: IndustriesCard ) => {
         alt="" 
         className="w-[230px] h-[230px] m-auto object-cover object-center rounded-full"
       />
-      <p className="text-center font-semibold mt-3 text-lg">
+      <p className="text-center font-semibold mt-3 text-lg font-raleway">
         {text}
       </p>
     </div>
@@ -30,7 +30,7 @@ export const WhyCard = ({ image, title, subtitle }: Cards) => {
       </p>
 
       <div className="m-auto">
-        <p className="text-xl font-semibold">
+        <p className="text-xl font-semibold font-raleway">
           {title}
         </p>
         <p>
@@ -56,7 +56,7 @@ export const WhatWeDoCard = ({ image, title, subtitle }: Cards) => {
       </p>
 
       <div className="m-auto mt-0 pl-2">
-        <p className="text-xl font-semibold pb-2 max-md:text-lg">
+        <p className="text-xl font-semibold pb-2 max-md:text-lg font-raleway">
           {title}
         </p>
         <p className="">
@@ -78,16 +78,16 @@ type CardsImage = {
 export const PlantsCard = ({ image, title, subtitle, textButton, linkButton }: CardsImage) => {
   return(
   <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm h-fit">
-    <a href="#" className="">
+    <div>
       <img 
         className="rounded-t-lg flex w-full" 
         src={image} 
         alt="" 
       />
-    </a>
+    </div>
     <div className="p-5">
       <a href="#">
-        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">
+        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 font-raleway">
           {title}
         </h5>
       </a>
@@ -111,15 +111,15 @@ type TypeMembraneCard = {
 export const TypeMembraneCard = ({ title, array }: TypeMembraneCard) => {
   return(
     <div className="w-full max-w-sm p-4 mx-auto bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8">
-      <h5 className="mb-8 mt-2 text-2xl font-medium text-center text-gray-500">
+      <h5 className="mb-8 mt-2 text-2xl font-medium text-center text-gray-500 font-raleway">
         {title}
       </h5>
       <ul 
         role="list" 
         className="space-y-5 my-2"
       >
-        {array.map((item) => 
-          <li className="flex items-center">
+        {array.map((item, index) => 
+          <li className="flex items-center" key={index}>
             <svg 
               className="shrink-0 w-4 h-4 text-green-500" 
               aria-hidden="true" 
@@ -150,8 +150,8 @@ export const BenefitsCard = ({ array }: BenefitsCard) => {
         role="list" 
         className="space-y-7 my-2"
       >
-        {array.map((item) => 
-          <li className="flex items-center">
+        {array.map((item, index) => 
+          <li className="flex items-center" key={index}>
             <FaStar 
               className="text-amber-400 shrink-0 w-5 h-5" 
             />
@@ -161,6 +161,33 @@ export const BenefitsCard = ({ array }: BenefitsCard) => {
           </li>
           )}
       </ul>
+    </div>
+  )
+}
+
+type CommitmentCard = {
+  image?: React.ReactNode;
+  title?: string;
+  subtitle?: string;
+  style?: string;
+}
+
+export const CommitmentCard = ({ image, title, subtitle, style }: CommitmentCard) => {
+  return(
+    <div className="bg-white/90 mx-auto p-4 flex">
+
+      <p className={`text-[50px] max-md:text-[40px] flex p-4 max-md:p-2 max-md:pl-0 max-md:-mt-1 -mt-3 ${style}`}>
+        {image}
+      </p>
+
+      <div className="m-auto mt-0 pl-2">
+        <p className="text-xl font-semibold font-raleway pb-2 max-md:text-lg">
+          {title}
+        </p>
+        <p className="">
+          {subtitle}
+        </p>        
+      </div>
     </div>
   )
 }

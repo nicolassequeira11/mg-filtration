@@ -7,10 +7,40 @@
     "Nanofiltration": "Nanofiltración",
     "ReverseOsmosis": "Ósmosis Reversa",
     "Stabilization": "Estabilización",
+    "AboutUs": "Sobre nosotros",
     "Contact": "Contacto"
   },
   "aboutUs": {
     "title": "Sobre nosotros",
+    "subtitle": "Tecnología italiana al servicio de la sostenibilidad industrial",
+    "who": {
+      "title": "Quiénes somos",
+      "text1": "M.G. Filtration Technology Ltd. es una empresa italiana especializada en el diseño y fabricación de filtros con membrana mediante tecnología de filtración tangencial, así como en el desarrollo de instalaciones adaptadas a cada necesidad.",
+      "text2": "Trabajamos en soluciones para el tratamiento de aguas y líquidos en sectores industriales y civiles, utilizando tecnologías como Microfiltración, Ultrafiltración, Nanofiltración y Ósmosis Inversa.",
+      "text3": "Contamos con un laboratorio propio y plantas piloto que nos permiten realizar pruebas preliminares, optimizar procesos y seleccionar las membranas más adecuadas para cada aplicación.",
+      "text4": "Gracias a alianzas con universidades europeas, también desarrollamos sistemas para la reutilización del agua y la recuperación de sustancias de valor, combinando tecnologías de membrana para obtener agua ultrapura reutilizable y reducir el impacto ambiental de los procesos industriales."
+    },
+    "commitment": {
+      "title": "Nuestro compromiso",
+      "cards": {
+        "card1": {
+          "title": "Sostenibilidad",
+          "text": "Desarrollamos sistemas que permiten reducir el impacto ambiental, optimizando el uso de recursos y promoviendo la economía circular en los procesos industriales."
+        },
+        "card2": {
+          "title": "Innovación",
+          "text": "Invertimos en investigación y pruebas piloto para crear soluciones eficientes, adaptadas a cada industria, con tecnologías de membrana de última generación."
+        },
+        "card3": {
+          "title": "Alianzas con universidades",
+          "text": "Colaboramos con prestigiosas universidades europeas para impulsar proyectos de desarrollo tecnológico y sostenibilidad en el tratamiento de aguas."
+        },
+        "card4": {
+          "title": "Reutilización del agua",
+          "text": "Creamos plantas que purifican y desmineralizan el agua residual, permitiendo su reutilización segura en los ciclos productivos."
+        }
+      }
+    },
     "text1": "M.G. Filtration Technology Ltd. nace de un proyecto italiano destinado a diseñar y producir filtros con membrana mediante tecnología de filtración tangencial. Además, desarrollamos e implementamos las correspondientes instalaciones para cada necesidad.",
     "text2": "Nos enfocamos en brindar la máxima asistencia técnica y profesionalidad a nuestros clientes, desarrollando procesos y plantas de separación adaptadas a cada industria.",
     "text3": "Trabajamos en el desarrollo y aplicación de soluciones globales para el tratamiento de aguas y productos líquidos en los sectores industrial y civil, empleando tecnologías como: Microfiltración, Ultrafiltración, Nanofiltración y Ósmosis inversa.",

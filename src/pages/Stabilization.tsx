@@ -1,4 +1,4 @@
-import { HeaderMembrane } from "../components/elements/Headers"
+import { Header } from "../components/elements/Headers"
 import { useTranslation } from "react-i18next"
 import { BenefitsLayout } from "../components/membranes/Benefits"
 import { TitleSection } from "../components/elements/Titles"
@@ -9,7 +9,7 @@ export const Stabilization = () => {
   return(
     <div>
       {/* Header */}
-      <HeaderMembrane 
+      <Header 
         text={t("plants.cards.card5.title")}
       />
 

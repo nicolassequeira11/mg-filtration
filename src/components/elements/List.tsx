@@ -7,8 +7,8 @@ export const List = ({array}: List) => {
   return(
     <div>
       <ul className="space-y-4 text-left text-gray-500">
-        {array.map((item) => 
-          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+        {array.map((item, index) => 
+          <li className="flex items-center space-x-3 rtl:space-x-reverse" key={index}>
             <svg 
               className="shrink-0 w-3.5 h-3.5 text-green-500" 
               aria-hidden="true" 
