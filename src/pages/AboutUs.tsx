@@ -51,7 +51,7 @@ export const AboutUs = () => {
       <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
 
         {/* Who */}
-        <div className="mb-28 mt-12">
+        <div className="mb-20 mt-12">
 
           {/* Title */}
           {/* <TitleSection 
@@ -59,7 +59,7 @@ export const AboutUs = () => {
             textConfig="text-center"
           /> */}
 
-          <div className="mt-16 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12">
+          <div className="mt-20 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12">
             <div className="w-1/2 max-lg:w-full">
               <p className="max-lg:-mt-6">
                 {t("aboutUs.who.text1")}
@@ -90,7 +90,7 @@ export const AboutUs = () => {
         </div>
 
         {/* Timeline */}
-        <div className="min-lg:py-16 mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
+        <div className="min-lg:py-20 mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
 
           {/* Title */}
           <TitleSection 
@@ -106,7 +106,7 @@ export const AboutUs = () => {
         </div>
 
         {/* Commitment */}
-        <div className="my-28">
+        <div className="my-20">
 
           {/* Title */}
           <TitleSection 
@@ -145,7 +145,7 @@ export const AboutUs = () => {
       </div>
 
       {/* Call to action */}
-      <div className="mt-28 bg-[url(./assets/contact-calltoaction.jpg)] bg-center bg-cover py-16">
+      <div className="mt-20 bg-[url(./assets/contact-calltoaction.jpg)] bg-center bg-cover py-16">
 
         <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
 

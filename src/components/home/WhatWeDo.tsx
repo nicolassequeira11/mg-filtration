@@ -13,7 +13,7 @@ export const WhatWeDoHome = () => {
 
   return(
     <div 
-      className="flex flex-col mx-auto my-28 relative
+      className="flex flex-col mx-auto my-20 relative
         bg-[url(./assets/background-why.jpg)] bg-center bg-cover"
     >
       {/* Gradiente superior */}

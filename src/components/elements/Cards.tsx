@@ -77,7 +77,10 @@ type CardsImage = {
 
 export const PlantsCard = ({ image, title, subtitle, textButton, linkButton }: CardsImage) => {
   return(
-  <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm h-fit">
+  <div 
+    className="max-w-sm bg-white border border-gray-200 
+      rounded-lg shadow-sm h-fit max-md:w-11/12 mx-auto"
+  >
     <div>
       <img 
         className="rounded-t-lg flex w-full" 
@@ -116,7 +119,7 @@ type TypeMembraneCard = {
 
 export const TypeMembraneCard = ({ title, array }: TypeMembraneCard) => {
   return(
-    <div className="w-full max-w-sm p-4 mx-auto bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8">
+    <div className="w-full max-w-sm max-md:w-11/12 p-4 mx-auto bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8">
       <h5 className="mb-8 mt-2 text-2xl font-medium text-center text-gray-500 font-raleway">
         {title}
       </h5>
@@ -151,7 +154,7 @@ type BenefitsCard = {
 
 export const BenefitsCard = ({ array }: BenefitsCard) => {
   return(
-    <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8">
+    <div className="w-full max-w-sm max-md:w-11/12 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8">
       <ul 
         role="list" 
         className="space-y-7 my-2"

@@ -53,6 +53,7 @@ export const Navbar = () => {
         <Link 
           to="/" 
           className="w-2/6 my-auto max-sm:w-7/12"
+          onClick={handleClickLink}
         >
           <div className="my-auto">
             <img 
@@ -66,19 +67,19 @@ export const Navbar = () => {
         {/* Links */}
         <div 
           className="grid-cols-4 w-fit grid m-auto gap-6 font-semibold font-raleway text-center
-            max-lg:hidden"
+            max-lg:hidden "
         >
-          <Link to="/">
+          <Link to="/" className="hover:text-red-mg">
             {t('navbarLinks.Home')}
           </Link>
           <ButtonDropdown 
             title={t('navbarLinks.Filters')}
             array={links}
           />
-          <Link to="/aboutus">
+          <Link to="/aboutus" className="hover:text-red-mg">
             {t('navbarLinks.AboutUs')}
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" className="hover:text-red-mg">
             {t('navbarLinks.Contact')}
           </Link>
         </div>

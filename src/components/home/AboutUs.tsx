@@ -6,7 +6,7 @@ export const AboutUsHome = () => {
   const { t } = useTranslation();
 
   return(
-    <div className="flex flex-col mx-auto max-md:w-full w-[70rem] max-w-[95vw] mb-28 mt-14">
+    <div className="flex flex-col mx-auto max-md:w-full w-[70rem] max-w-[95vw] mb-20 mt-14">
 
       {/* Title */}
       <TitleSection 

@@ -10,7 +10,7 @@ export const BenefitsLayout = ({newArray}: TypeBenefitsLayout) => {
   const {t} = useTranslation();
 
   return(
-    <div className="my-28">
+    <div className="my-20">
       
       {/* Title */}
       <div className="my-10 max-md:w-11/12 mx-auto">

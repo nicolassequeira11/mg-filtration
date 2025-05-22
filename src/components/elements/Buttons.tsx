@@ -137,7 +137,7 @@ export const ButtonDropdown = ({ title, array, onClick }: ButtonDropdown) => {
   return (
     <Menu as="div" className="relative inline-block text-left m-auto">
       <div>
-        <MenuButton className="inline-flex w-full cursor-pointer justify-center gap-x-1.5 focus:outline-0 max-lg:text-[17px] max-lg:font-normal font-semibold text-gray-900">
+        <MenuButton className="inline-flex w-full cursor-pointer hover:text-red-mg justify-center gap-x-1.5 focus:outline-0 max-lg:text-[17px] max-lg:font-normal font-semibold text-gray-900">
           {title}
           <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5 text-gray-400 m-auto" />
         </MenuButton>
@@ -160,7 +160,7 @@ export const ButtonDropdown = ({ title, array, onClick }: ButtonDropdown) => {
                   <Link
                     to={item.link}
                     onClick={onClick}
-                    className={`block px-4 py-2 max-lg:py-4 text-sm text-gray-700 ${
+                    className={`block px-4 py-2 max-lg:py-4 text-sm text-gray-700 hover:text-red-mg ${
                       active ? 'bg-gray-100 text-gray-900' : ''
                     }`}
                   >

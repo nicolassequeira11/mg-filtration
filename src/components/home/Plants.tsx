@@ -13,12 +13,12 @@ export const PlantsHome = () => {
   const { t } = useTranslation()
 
   return(
-    <div className="flex flex-col mx-auto w-[70rem] max-w-[95vw] my-28">
+    <div className="flex flex-col mx-auto w-[70rem] max-w-[95vw] my-20">
 
       {/* Title */}
       <TitleSection 
         text={t('plants.title')}
-        textConfig={"text-center"}
+        textConfig={"text-center mx-auto"}
       />
 
       {/* Content */}

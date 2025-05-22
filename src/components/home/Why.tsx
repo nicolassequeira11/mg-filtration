@@ -15,7 +15,7 @@ export const WhyHome = () => {
 
   return(
     <div 
-      className="mx-auto mt-28 justify-center flex overflow-hidden relative
+      className="mx-auto my-20 justify-center flex overflow-hidden relative
         bg-[url(./assets/background-why.jpg)] bg-center bg-cover"
     >
       {/* Gradiente inferior */}
@@ -43,7 +43,7 @@ export const WhyHome = () => {
             <img 
               src={ImageFilterMembrane} 
               alt="" 
-              className="my-auto max-lg:mb-6"
+              className="my-auto max-lg:mb-6 max-md:w-10/12 max-md:mx-auto"
             />
           </div>
 

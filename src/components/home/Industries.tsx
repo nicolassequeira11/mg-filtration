@@ -11,7 +11,7 @@ export const IndustriesHome = () => {
   const { t } = useTranslation()
 
   return(
-    <div className="flex flex-col mx-auto w-[70rem] max-w-[95vw] my-28">
+    <div className="flex flex-col mx-auto w-[70rem] max-w-[95vw] my-20">
       <TitleSection 
         text={t('industries.title')}
         textConfig={"text-center"}

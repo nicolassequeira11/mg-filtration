@@ -15,7 +15,7 @@ export const AdvantagesLayout = ({image, array, textList2, arrayList2, isList}: 
   const {t} = useTranslation();
 
   return(
-    <div className="my-28">
+    <div className="my-20">
       
       {/* Title */}
       <div className="my-10 max-md:w-11/12 mx-auto">
@@ -43,7 +43,7 @@ export const AdvantagesLayout = ({image, array, textList2, arrayList2, isList}: 
             </div>
           : ""}
         </div>
-        <div>
+        <div className="max-md:w-11/12 max-md:mx-auto">
           <img 
             src={image} 
             alt=""
