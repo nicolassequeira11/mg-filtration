@@ -37,9 +37,12 @@ export const Footer = () => {
                 <MdEmail 
                   className="text-[20px] w-fit" 
                 />
-                <p className="text-sm">
+                <a 
+                  href="mailto:info@mgfiltration.com" 
+                  className="text-sm hover:text-red-mg"
+                >
                   info@mgfiltration.com
-                </p>
+                </a>
               </div>
 
               {/* Address */}

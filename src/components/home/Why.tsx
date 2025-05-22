@@ -15,9 +15,12 @@ export const WhyHome = () => {
 
   return(
     <div 
-      className="mx-auto mt-28 justify-center flex overflow-hidden 
+      className="mx-auto mt-28 justify-center flex overflow-hidden relative
         bg-[url(./assets/background-why.jpg)] bg-center bg-cover"
     >
+      {/* Gradiente inferior */}
+      <div className="absolute top-0 left-0 w-full h-10 bg-gradient-to-t from-transparent to-white pointer-events-none" />
+
       <div 
         className="justify-center flex flex-col py-12
           w-[70rem] max-w-[95vw] max-lg:w-11/12 max-lg:m-auto"
@@ -69,6 +72,9 @@ export const WhyHome = () => {
           </div>  
         </div>
       </div>
+
+      {/* Gradiente inferior */}
+      <div className="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-b from-transparent to-white pointer-events-none" />
     </div>
   )
 }

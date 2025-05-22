@@ -15,7 +15,7 @@ export const ApplicationsLayout = ({ title1, title2, title3, array1, array2, arr
   const {t} = useTranslation();
 
   return(
-    <div className="mb-28">
+    <div className="mb-28 pt-10">
       
       {/* Title */}
       <div className="my-10 max-md:w-11/12 mx-auto">

@@ -118,6 +118,9 @@ export const Navbar = () => {
               title={t('navbarLinks.Filters')}
               array={links}
             />
+            <Link to="/aboutus" className="text-[17px]" onClick={handleClickLink}>
+              {t('navbarLinks.AboutUs')}
+            </Link>
             <Link to="/contact" className="text-[17px]" onClick={handleClickLink}>
               {t('navbarLinks.Contact')}
             </Link>

@@ -7,14 +7,70 @@
     "Nanofiltration": "Nanofiltrazione",
     "ReverseOsmosis": "Osmosi Inversa",
     "Stabilization": "Stabilizzazione",
+    "AboutUs": "Chi siamo",
     "Contact": "Contatto"
   },
-  "aboutUs": {
+"aboutUs": {
     "title": "Chi siamo",
-    "text1": "M.G. Filtration Technology Ltd. nasce da un progetto italiano volto a progettare e produrre filtri a membrana mediante tecnologia di filtrazione tangenziale. Inoltre, sviluppiamo e realizziamo gli impianti corrispondenti per ogni esigenza.",
-    "text2": "Ci concentriamo nel fornire la massima assistenza tecnica e professionalità ai nostri clienti, sviluppando processi e impianti di separazione adattati a ogni settore.",
-    "text3": "Lavoriamo nello sviluppo e nell'applicazione di soluzioni globali per il trattamento delle acque e dei liquidi nei settori industriale e civile, utilizzando tecnologie come: Microfiltrazione, Ultrafiltrazione, Nanofiltrazione e Osmosi inversa.",
-    "text4": "Grazie al nostro laboratorio chimico, fisico e biologico, e alla nostra esperienza tecnica, abbiamo sviluppato una serie di impianti pilota che permettono di effettuare prove preliminari su piccoli volumi. In questo modo selezioniamo la membrana più adatta e ottimizziamo i parametri del processo su scala industriale."
+    "subtitle": "Tecnologia italiana al servizio della sostenibilità industriale",
+    "who": {
+      "title": "Chi siamo",
+      "text1": "M.G. Filtration Technology Ltd. è un’azienda italiana specializzata nella progettazione e produzione di filtri a membrana tramite tecnologia di filtrazione tangenziale, nonché nello sviluppo di impianti su misura per ogni esigenza.",
+      "text2": "Lavoriamo a soluzioni per il trattamento delle acque e dei liquidi nei settori industriali e civili, utilizzando tecnologie come la Microfiltrazione, l’Ultrafiltrazione, la Nanofiltrazione e l’Osmosi Inversa.",
+      "text3": "Disponiamo di un laboratorio interno e di impianti pilota che ci permettono di effettuare test preliminari, ottimizzare i processi e selezionare le membrane più adatte a ogni applicazione.",
+      "text4": "Grazie ad alleanze con università europee, sviluppiamo anche sistemi per il riutilizzo dell’acqua e il recupero di sostanze di valore, combinando tecnologie a membrana per ottenere acqua ultrapura riutilizzabile e ridurre l’impatto ambientale dei processi industriali."
+    },
+    "commitment": {
+      "title": "Il nostro impegno",
+      "cards": {
+        "card1": {
+          "title": "Sostenibilità",
+          "text": "Sviluppiamo sistemi che permettono di ridurre l’impatto ambientale, ottimizzando l’uso delle risorse e promuovendo l’economia circolare nei processi industriali."
+        },
+        "card2": {
+          "title": "Innovazione",
+          "text": "Investiamo in ricerca e test pilota per creare soluzioni efficienti, su misura per ogni industria, con tecnologie a membrana di ultima generazione."
+        },
+        "card3": {
+          "title": "Alleanze con università",
+          "text": "Collaboriamo con prestigiose università europee per promuovere progetti di sviluppo tecnologico e sostenibilità nel trattamento delle acque."
+        },
+        "card4": {
+          "title": "Riutilizzo dell’acqua",
+          "text": "Realizziamo impianti che purificano e desalinizzano le acque reflue, permettendone il riutilizzo sicuro nei cicli produttivi."
+        }
+      }
+    },
+    "timeline": {
+      "title": "Come lo facciamo",
+      "steps": {
+        "step1": {
+          "title": "Analisi delle tue esigenze",
+          "text": "Ascoltiamo e analizziamo ogni dettaglio del processo produttivo del cliente per comprendere gli obiettivi tecnici, economici e ambientali."
+        },
+        "step2": {
+          "title": "Test pilota in laboratorio",
+          "text": "Eseguiamo prove con piccoli campioni nei nostri impianti pilota per definire la membrana adatta e i parametri ottimali di filtrazione."
+        },
+        "step3": {
+          "title": "Progettazione su misura",
+          "text": "Progettiamo e integriamo un impianto personalizzato, adattato alle esigenze specifiche del cliente e del suo settore."
+        },
+        "step4": {
+          "title": "Implementazione",
+          "text": "Installiamo l’impianto e offriamo supporto tecnico continuo per garantirne un funzionamento efficiente e duraturo."
+        }
+      }
+    },
+    "callToAction": {
+      "title": "Vuoi portare il tuo processo al livello successivo?",
+      "subtitle": "Contattaci per una soluzione personalizzata",
+      "textButton": "Invia email"
+    },
+    "text1": "M.G. Filtration Technology Ltd. nasce da un progetto italiano volto alla progettazione e produzione di filtri a membrana tramite tecnologia di filtrazione tangenziale. Inoltre, sviluppiamo e implementiamo gli impianti necessari per ogni esigenza.",
+    "text2": "Ci concentriamo nel fornire la massima assistenza tecnica e professionalità ai nostri clienti, sviluppando processi e impianti di separazione su misura per ogni settore.",
+    "text3": "Lavoriamo allo sviluppo e all’applicazione di soluzioni globali per il trattamento delle acque e dei liquidi nei settori industriale e civile, impiegando tecnologie come: Microfiltrazione, Ultrafiltrazione, Nanofiltrazione e Osmosi Inversa.",
+    "text4": "Grazie al nostro laboratorio chimico, fisico e biologico, e alla nostra esperienza tecnica, abbiamo sviluppato una serie di impianti pilota che permettono di effettuare test preliminari su piccoli volumi. In questo modo selezioniamo la membrana più adatta e ottimizziamo i parametri del processo su scala industriale."
   },
   "whatWeDo": {
     "title": "Cosa facciamo",

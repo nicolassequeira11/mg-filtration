@@ -13,9 +13,12 @@ export const WhatWeDoHome = () => {
 
   return(
     <div 
-      className="flex flex-col mx-auto my-28 
+      className="flex flex-col mx-auto my-28 relative
         bg-[url(./assets/background-why.jpg)] bg-center bg-cover"
     >
+      {/* Gradiente superior */}
+      <div className="absolute top-0 left-0 w-full h-10 bg-gradient-to-t from-transparent to-white pointer-events-none" />
+
       <div className="w-[70rem] max-w-[95vw] mx-auto py-12">
         {/* Title */}
         <TitleSection 
@@ -52,6 +55,9 @@ export const WhatWeDoHome = () => {
 
         </div>
       </div>
+
+      {/* Gradiente inferior */}
+      <div className="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-b from-transparent to-white pointer-events-none" />
     </div>
   )
 }

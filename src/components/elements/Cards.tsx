@@ -86,18 +86,24 @@ export const PlantsCard = ({ image, title, subtitle, textButton, linkButton }: C
       />
     </div>
     <div className="p-5">
-      <a href="#">
-        <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 font-raleway">
-          {title}
-        </h5>
-      </a>
+
+      {/* Title */}
+      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 font-raleway">
+        {title}
+      </h5>
+
+      {/* Subtitle */}
       <p className="mb-3 text-sm font-normal text-gray-700">
         {subtitle}
       </p>
-      <Button 
-        textButton={textButton}
-        linkButton={linkButton}
-      />
+
+      {/* Button */}
+      <div className="-ml-1">
+        <Button 
+          textButton={textButton}
+          linkButton={linkButton}
+        />
+      </div>
     </div>
   </div>
   )
@@ -187,6 +193,74 @@ export const CommitmentCard = ({ image, title, subtitle, style }: CommitmentCard
         <p className="">
           {subtitle}
         </p>        
+      </div>
+    </div>
+  )
+}
+
+type ContactCard = {
+  image?: string;
+  title?: string;
+  subtitle?: string;
+  email?: string;
+  tel?: string;
+  mailto: string;
+  telto: string;
+  textEmail: string;
+  textTel: string;
+}
+
+export const ContactCard = ({ image, title, subtitle, email, tel, mailto, telto, textEmail, textTel }: ContactCard) => {
+  return(
+    <div className="bg-white/90 flex w-[280px] min-w-[280px] max-w-[280px] flex-col rounded-xl shadow-lg max-md:mx-auto max-md:w-11/12">
+
+      <div className="relative">
+        <img 
+          src={image} 
+          className="flex object-cover h-[300px] w-[280px] object-top rounded-xl"
+        />
+        <div className="bottom-0 absolute text-center w-full bg-black-mg/80 text-white py-2">
+          <p className="text-lg font-semibold font-raleway max-md:text-lg">
+            {title}
+          </p>
+          <p className="text-sm">
+            {subtitle}
+          </p>        
+        </div>
+      </div>
+
+      <div className="p-5 text-center">
+
+        <div className="flex flex-col gap-y-4">
+          <a 
+            href={mailto} 
+            className="text-base pb-2 max-md:text-lg flex-col flex"
+          >
+            {email}
+            <span className="mt-1">
+              <a 
+                href={mailto}
+                className="text-sm bg-red-mg hover:bg-red-mg/80 px-3 py-1 rounded-full text-white" 
+              >
+                {textEmail}
+              </a>
+            </span>
+          </a>
+          <a 
+            href={telto}
+            className="flex-col flex text-base"
+          >
+            {tel}
+            <span className="mt-1">
+              <a 
+                href={telto}
+                className="text-sm bg-red-mg hover:bg-red-mg/80 px-3 py-1 rounded-full text-white" 
+              >
+                {textTel}
+              </a>
+            </span>
+          </a>  
+        </div>
       </div>
     </div>
   )

@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next"
 import { Header } from "../components/elements/Headers";
 import { CommitmentCard } from "../components/elements/Cards";
 import { TitleSection } from "../components/elements/Titles";
+import { Timeline } from "../components/elements/Timelines";
 
 import { MdOutlineRecycling } from "react-icons/md";
 import { IoIosRocket } from "react-icons/io";
@@ -9,10 +10,36 @@ import { PiHandshakeFill } from "react-icons/pi";
 import { IoWater } from "react-icons/io5";
 
 import ImageWho from "../assets/plants/nanofiltration/nanofiltration-mgfiltration-advantages.jpg";
-
+import { FaSearch } from "react-icons/fa";
+import { RiTestTubeFill } from "react-icons/ri";
+import { FaTools } from "react-icons/fa";
+import { SiAdguard } from "react-icons/si";
 
 export const AboutUs = () => {
   const {t} = useTranslation();
+
+  const arrayTimeline = [
+    {
+      icon: <FaSearch />,
+      title: t("aboutUs.timeline.steps.step1.title"),
+      text: t("aboutUs.timeline.steps.step1.text")
+    },
+    {
+      icon: <RiTestTubeFill />,
+      title: t("aboutUs.timeline.steps.step2.title"),
+      text: t("aboutUs.timeline.steps.step2.text")
+    },
+    {
+      icon: <FaTools />,
+      title: t("aboutUs.timeline.steps.step3.title"),
+      text: t("aboutUs.timeline.steps.step3.text")
+    },
+    {
+      icon: <SiAdguard />,
+      title: t("aboutUs.timeline.steps.step4.title"),
+      text: t("aboutUs.timeline.steps.step4.text")
+    },
+  ]
 
   return(
     <div>
@@ -27,12 +54,12 @@ export const AboutUs = () => {
         <div className="mb-28 mt-12">
 
           {/* Title */}
-          <TitleSection 
+          {/* <TitleSection 
             text={t("aboutUs.who.title")}
             textConfig="text-center"
-          />
+          /> */}
 
-          <div className="mt-12 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12">
+          <div className="mt-16 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12">
             <div className="w-1/2 max-lg:w-full">
               <p className="max-lg:-mt-6">
                 {t("aboutUs.who.text1")}
@@ -62,6 +89,22 @@ export const AboutUs = () => {
           </div>
         </div>
 
+        {/* Timeline */}
+        <div className="min-lg:py-16 mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
+
+          {/* Title */}
+          <TitleSection 
+            text={t("aboutUs.timeline.title")}
+            textConfig="text-center"
+          />
+
+          <div className="mt-16">
+            <Timeline 
+              array={arrayTimeline}
+            />
+          </div>
+        </div>
+
         {/* Commitment */}
         <div className="my-28">
 
@@ -72,7 +115,7 @@ export const AboutUs = () => {
           />
 
           {/* Content */}
-          <div className="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-4 gap-10 mt-12">
+          <div className="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-4 gap-6 mt-16">
             <CommitmentCard 
               image={<MdOutlineRecycling />}
               title={t("aboutUs.commitment.cards.card1.title")}
@@ -100,6 +143,38 @@ export const AboutUs = () => {
           </div>
         </div>
       </div>
+
+      {/* Call to action */}
+      <div className="mt-28 bg-[url(./assets/contact-calltoaction.jpg)] bg-center bg-cover py-16">
+
+        <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
+
+          {/* Title */}
+          <TitleSection 
+            text={t("aboutUs.callToAction.title")}
+            textConfig="text-center text-white"
+          />
+
+          {/* Subtitle */}
+          <p className="mt-4 text-center text-xl text-white max-md:text-lg">
+            {t("aboutUs.callToAction.subtitle")}
+          </p>
+
+          {/* Button */}
+          <a 
+            href="mailto:info@mgfiltration.com" 
+            className="text-3xl text-center mx-auto border-4 border-white hover:text-white px-8 py-4 
+              rounded-full flex w-fit mt-14 font-bold font-raleway hover:bg-transparent hover:shadow-none
+              transition-all ease-in duration-100
+              bg-white text-red-mg shadow-2xl
+              max-md:text-2xl"
+          >
+            {t("aboutUs.callToAction.textButton")}
+          </a>
+
+        </div>
+      </div>
+
     </div>
   )
 }

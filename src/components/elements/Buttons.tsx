@@ -97,7 +97,8 @@ export const Button = ({textButton, linkButton}: Button) => {
       <Link 
         to={linkButton} 
         className="inline-flex items-center px-3 py-2 text-sm font-medium text-center 
-          text-white bg-red-mg rounded-lg hover:bg-red-mg/80 focus:ring-4 focus:outline-none"
+          text-white hover:bg-gradient-to-tr rounded-full
+          hover:from-red-mg hover:to-red-400 bg-red-mg focus:ring-4 focus:outline-none"
       >
         {textButton}
         <svg 
@@ -136,7 +137,7 @@ export const ButtonDropdown = ({ title, array, onClick }: ButtonDropdown) => {
   return (
     <Menu as="div" className="relative inline-block text-left m-auto">
       <div>
-        <MenuButton className="inline-flex w-full justify-center gap-x-1.5 focus:outline-0 max-lg:text-[17px] max-lg:font-normal font-semibold text-gray-900">
+        <MenuButton className="inline-flex w-full cursor-pointer justify-center gap-x-1.5 focus:outline-0 max-lg:text-[17px] max-lg:font-normal font-semibold text-gray-900">
           {title}
           <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5 text-gray-400 m-auto" />
         </MenuButton>
