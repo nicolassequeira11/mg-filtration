@@ -10,7 +10,11 @@
     "AboutUs": "Chi siamo",
     "Contact": "Contatto"
   },
-"aboutUs": {
+  "banner": {
+    "title": "Tecnologia di filtrazione per un futuro più pulito",
+    "subtitle": "Fai contare ogni goccia. Tecnologia efficiente, risultati misurabili."
+  },
+  "aboutUs": {
     "title": "Chi siamo",
     "subtitle": "Tecnologia italiana al servizio della sostenibilità industriale",
     "who": {
