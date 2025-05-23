@@ -31,7 +31,13 @@ export const WhyHome = () => {
           textConfig={"text-center"}
         />
 
-        <p className="mt-6 w-[80%] max-md:w-full text-center mx-auto">
+        <p 
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+          data-aos-offset="0"
+          className="mt-6 w-[80%] max-md:w-full text-center mx-auto"
+        >
           {t("why.subtitle")}
         </p>
 
@@ -39,7 +45,13 @@ export const WhyHome = () => {
         <div className="flex mt-14 max-lg:mt-8 max-lg:flex-col max-md:w-full max-lg:mx-auto">
           
           {/* Image */}
-          <div className="w-1/2 mx-auto max-md:w-full justify-between flex flex-col">
+          <div 
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="100"
+            data-aos-offset="0"
+            className="w-1/2 mx-auto max-md:w-full justify-between flex flex-col"
+          >
             <img 
               src={ImageFilterMembrane} 
               alt="" 

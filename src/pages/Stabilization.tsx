@@ -21,7 +21,7 @@ export const Stabilization = () => {
             textConfig={"text-center"}
           />
         </div>
-        <div className="mx-auto w-[70rem] max-w-[95vw] mt-12">         
+        <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12 mt-12">         
           <p 
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
