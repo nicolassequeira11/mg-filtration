@@ -26,7 +26,11 @@ export const AdvantagesLayout = ({image, array, textList2, arrayList2, isList}: 
       </div>
 
       {/* Content */}
-      <div 
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="100"
+        data-aos-offset="0"
         className="grid grid-cols-2 max-md:grid-cols-1 max-md:w-11/12 gap-10 mx-auto w-[70rem] max-w-[95vw] mt-12"
       >
         <div>

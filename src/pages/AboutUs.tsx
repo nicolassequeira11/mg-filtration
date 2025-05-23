@@ -51,7 +51,13 @@ export const AboutUs = () => {
       <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
 
         {/* Who */}
-        <div className="mb-20 mt-12">
+        <div 
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+          data-aos-offset="0"
+          className="mb-20 mt-12"
+        >
 
           {/* Title */}
           {/* <TitleSection 
@@ -98,7 +104,13 @@ export const AboutUs = () => {
             textConfig="text-center"
           />
 
-          <div className="mt-16">
+          <div 
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="100"
+            data-aos-offset="0"
+            className="mt-16"
+          >
             <Timeline 
               array={arrayTimeline}
             />
@@ -147,7 +159,12 @@ export const AboutUs = () => {
       {/* Call to action */}
       <div className="mt-20 bg-[url(./assets/contact-calltoaction.jpg)] bg-center bg-cover py-16">
 
-        <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
+        <div 
+                data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="100"
+        data-aos-offset="0"
+          className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
 
           {/* Title */}
           <TitleSection 

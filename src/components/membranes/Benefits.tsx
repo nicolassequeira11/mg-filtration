@@ -10,8 +10,13 @@ export const BenefitsLayout = ({newArray}: TypeBenefitsLayout) => {
   const {t} = useTranslation();
 
   return(
-    <div className="my-20">
-      
+    <div 
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      className="my-20"
+    >
       {/* Title */}
       <div className="my-10 max-md:w-11/12 mx-auto">
         <TitleSection 

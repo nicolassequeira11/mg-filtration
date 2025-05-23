@@ -48,8 +48,13 @@ export const Contact = () => {
       {/* Call to action */}
       <div className="mt-20 bg-[url(./assets/contact-calltoaction.jpg)] bg-center bg-cover py-16">
 
-        <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
-
+        <div 
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+          data-aos-offset="0"
+          className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12"
+        >
           {/* Title */}
           <TitleSection 
             text={t("aboutUs.callToAction.title")}

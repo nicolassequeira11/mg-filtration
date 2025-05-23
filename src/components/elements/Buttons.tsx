@@ -24,8 +24,8 @@ export const ButtonLanguageSelection = ({ selected, setSelected, options }: Butt
     >
       <div className="relative w-fit">
         <ListboxButton 
-          className="grid w-fit cursor-default grid-cols-1 rounded-md focus:outline-0
-            py-1.5 pr-2 pl-3 text-left text-gray-900  
+          className="grid w-fit grid-cols-1 rounded-md focus:outline-0
+            py-1.5 pr-2 pl-3 text-left text-gray-900 cursor-pointer  
             sm:text-sm/6"
         >
           <span className="col-start-1 row-start-1 flex items-center gap-3 pr-6">

@@ -15,7 +15,13 @@ export const AboutUsHome = () => {
       />
 
       {/* Content */}
-      <div className="mt-12 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12">
+      <div 
+        className="mt-12 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="100"
+        data-aos-offset="0"
+      >
         <div className="w-1/2 max-lg:w-full">
           <p className="max-lg:-mt-6">
             {t("aboutUs.text1")}

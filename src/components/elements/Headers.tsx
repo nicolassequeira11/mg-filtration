@@ -9,11 +9,23 @@ export const Header = ({text, description}: TypeHeader) => {
     <div 
       className="relative bg-[url(./assets/background-why.jpg)] bg-center bg-cover py-20"
     >
-      <p className="text-6xl max-md:text-4xl font-bold text-center font-raleway">
+      <p 
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="100"
+        data-aos-offset="0"
+        className="text-6xl max-md:text-4xl font-bold text-center font-raleway"
+      >
         {text}
       </p>
       {description ? 
-        <p className="text-md text-center mt-4 max-md:w-11/12 mx-auto">
+        <p 
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+          data-aos-offset="0"
+          className="text-md text-center mt-4 max-md:w-11/12 mx-auto"
+        >
           {description}
         </p>
       : ""}

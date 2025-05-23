@@ -8,7 +8,13 @@ type IndustriesCard = {
 
 export const IndustriesCard = ( {image, text}: IndustriesCard ) => {
   return(
-    <div className="m-auto">
+    <div 
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      className="m-auto"
+    >
       <img 
         src={image}
         alt="" 
@@ -23,8 +29,13 @@ export const IndustriesCard = ( {image, text}: IndustriesCard ) => {
 
 export const WhyCard = ({ image, title, subtitle }: Cards) => {
   return(
-    <div className="animate-fade-in text-center bg-white/90 max-md:w-full w-[450px] p-4 flex">
-
+    <div 
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      className="animate-fade-in text-center bg-white/90 max-md:w-full w-[450px] p-4 flex"
+    >
       <p className="text-[50px] max-md:text-[40px] flex justify-center text-red-mg bg-white p-4 max-md:p-2 max-md:pl-0 rounded-full">
         {image}
       </p>
@@ -49,7 +60,13 @@ type Cards = {
 
 export const WhatWeDoCard = ({ image, title, subtitle }: Cards) => {
   return(
-    <div className=" bg-white/90 w-[500px] max-md:w-full mx-auto p-4 flex">
+    <div 
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      className=" bg-white/90 w-[500px] max-md:w-full mx-auto p-4 flex"
+    >
 
       <p className="text-[50px] max-md:text-[40px] flex text-red-mg p-4 max-md:p-2 max-md:pl-0 max-md:-mt-1 -mt-3">
         {image}
@@ -78,6 +95,10 @@ type CardsImage = {
 export const PlantsCard = ({ image, title, subtitle, textButton, linkButton }: CardsImage) => {
   return(
   <div 
+    data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="100"
+    data-aos-offset="0"
     className="max-w-sm bg-white border border-gray-200 
       rounded-lg shadow-sm h-fit max-md:w-11/12 mx-auto"
   >
@@ -119,7 +140,13 @@ type TypeMembraneCard = {
 
 export const TypeMembraneCard = ({ title, array }: TypeMembraneCard) => {
   return(
-    <div className="w-full max-w-sm max-md:w-11/12 p-4 mx-auto bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8">
+    <div 
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      className="w-full max-w-sm max-md:w-11/12 p-4 mx-auto bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8"
+    >
       <h5 className="mb-8 mt-2 text-2xl font-medium text-center text-gray-500 font-raleway">
         {title}
       </h5>
@@ -154,7 +181,13 @@ type BenefitsCard = {
 
 export const BenefitsCard = ({ array }: BenefitsCard) => {
   return(
-    <div className="w-full max-w-sm max-md:w-11/12 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8">
+    <div 
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      className="w-full max-w-sm max-md:w-11/12 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8"
+    >
       <ul 
         role="list" 
         className="space-y-7 my-2"
@@ -183,8 +216,13 @@ type CommitmentCard = {
 
 export const CommitmentCard = ({ image, title, subtitle, style }: CommitmentCard) => {
   return(
-    <div className="bg-white/90 mx-auto p-4 flex">
-
+    <div 
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      className="bg-white/90 mx-auto p-4 flex"
+    >
       <p className={`text-[50px] max-md:text-[40px] flex p-4 max-md:p-2 max-md:pl-0 max-md:-mt-1 -mt-3 ${style}`}>
         {image}
       </p>
@@ -215,8 +253,13 @@ type ContactCard = {
 
 export const ContactCard = ({ image, title, subtitle, email, tel, mailto, telto, textEmail, textTel }: ContactCard) => {
   return(
-    <div className="bg-white/90 flex w-[280px] min-w-[280px] max-w-[280px] flex-col rounded-xl shadow-lg max-md:mx-auto max-md:w-11/12">
-
+    <div 
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      className="bg-white/90 flex w-[280px] min-w-[280px] max-w-[280px] flex-col rounded-xl shadow-lg max-md:mx-auto max-md:w-11/12"
+    >
       <div className="relative">
         <img 
           src={image} 

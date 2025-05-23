@@ -22,7 +22,13 @@ export const Stabilization = () => {
           />
         </div>
         <div className="mx-auto w-[70rem] max-w-[95vw] mt-12">         
-          <p className="text-lg">
+          <p 
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="100"
+            data-aos-offset="0"
+            className="text-lg"
+          >
             {t("plants.cards.card5.content.why.text")}
           </p>
         </div>
@@ -36,7 +42,13 @@ export const Stabilization = () => {
             textConfig={"text-center"}
           />
         </div>
-        <div className="mx-auto w-[70rem] max-w-[95vw] mt-12">         
+        <div 
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+          data-aos-offset="0"
+          className="mx-auto w-[70rem] max-w-[95vw] mt-12"
+        >         
           <p className="text-lg">
             {t("plants.cards.card5.content.howWork.text1")}
           </p>
@@ -54,7 +66,13 @@ export const Stabilization = () => {
             textConfig={"text-center"}
           />
         </div>
-        <div className="mx-auto w-[70rem] max-w-[95vw] mt-12">         
+        <div 
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+          data-aos-offset="0"
+          className="mx-auto w-[70rem] max-w-[95vw] mt-12"
+        >         
           <p className="text-lg">
             {t("plants.cards.card5.content.version.text")}
           </p>

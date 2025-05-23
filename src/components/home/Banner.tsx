@@ -21,6 +21,10 @@ export const Bannerhome = () => {
       <div 
         className="absolute left-0 right-0 bottom-0 top-0 text-center flex 
           justify-center flex-col w-11/12 mx-auto"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="100"
+        data-aos-offset="0"
       >
         <p className="text-5xl max-md:text-2xl text-white font-raleway font-bold">
           {t("banner.title")}
