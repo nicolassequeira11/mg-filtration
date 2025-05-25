@@ -1,4 +1,344 @@
 {
-  "welcome": "Bienvenue",
-  "select_language": "Sélectionne une langue"
+  "navbarLinks": {
+    "Home": "Accueil",
+    "Filters": "Types de filtres",
+    "Microfiltration": "Microfiltration",
+    "Ultrafiltration": "Ultrafiltration",
+    "Nanofiltration": "Nanofiltration",
+    "ReverseOsmosis": "Osmose Inverse",
+    "Stabilization": "Stabilisation",
+    "AboutUs": "À propos de nous",
+    "Contact": "Contact"
+  },
+  "banner": {
+    "title": "Technologie de filtration pour un avenir plus propre",
+    "subtitle": "Faisons en sorte que chaque goutte compte. Technologie efficace, résultats mesurables."
+  },
+  "aboutUs": {
+    "title": "À propos de nous",
+    "subtitle": "Technologie italienne au service de la durabilité industrielle",
+    "who": {
+      "title": "Qui sommes-nous",
+      "text1": "M.G. Filtration Technology Ltd. est une entreprise italienne spécialisée dans la conception et la fabrication de filtres à membrane utilisant la technologie de filtration tangentielle, ainsi que dans le développement d'installations adaptées à chaque besoin.",
+      "text2": "Nous proposons des solutions pour le traitement de l'eau et des liquides dans les secteurs industriels et civils, en utilisant des technologies telles que la Microfiltration, l’Ultrafiltration, la Nanofiltration et l’Osmose Inverse.",
+      "text3": "Nous disposons de notre propre laboratoire et d’unités pilotes nous permettant de réaliser des essais préliminaires, d’optimiser les processus et de sélectionner les membranes les plus adaptées à chaque application.",
+      "text4": "Grâce à des partenariats avec des universités européennes, nous développons également des systèmes pour la réutilisation de l’eau et la récupération de substances de valeur, en combinant des technologies membranaires afin d’obtenir de l’eau ultrapure réutilisable et de réduire l’impact environnemental des processus industriels."
+    },
+    "commitment": {
+      "title": "Notre engagement",
+      "cards": {
+        "card1": {
+          "title": "Durabilité",
+          "text": "Nous développons des systèmes permettant de réduire l’impact environnemental, en optimisant l’utilisation des ressources et en promouvant l’économie circulaire dans les processus industriels."
+        },
+        "card2": {
+          "title": "Innovation",
+          "text": "Nous investissons dans la recherche et les essais pilotes afin de créer des solutions efficaces, adaptées à chaque industrie, avec des technologies membranaires de dernière génération."
+        },
+        "card3": {
+          "title": "Partenariats universitaires",
+          "text": "Nous collaborons avec de prestigieuses universités européennes pour développer des projets technologiques et durables dans le traitement de l’eau."
+        },
+        "card4": {
+          "title": "Réutilisation de l’eau",
+          "text": "Nous concevons des installations qui purifient et déminéralisent les eaux usées, permettant leur réutilisation en toute sécurité dans les cycles de production."
+        }
+      }
+    },
+    "timeline": {
+      "title": "Notre méthode",
+      "steps": {
+        "step1": {
+          "title": "Analyse de vos besoins",
+          "text": "Nous écoutons et évaluons chaque détail du processus de production du client pour comprendre les objectifs techniques, économiques et environnementaux."
+        },
+        "step2": {
+          "title": "Essais pilotes en laboratoire",
+          "text": "Nous réalisons des tests avec de petites quantités dans nos unités pilotes afin de définir la membrane adéquate et les paramètres de filtration optimaux."
+        },
+        "step3": {
+          "title": "Conception sur mesure",
+          "text": "Nous concevons et intégrons une installation personnalisée, adaptée aux besoins spécifiques du client et à son secteur."
+        },
+        "step4": {
+          "title": "Mise en œuvre",
+          "text": "Nous installons l’unité et offrons un support technique continu pour garantir son fonctionnement efficace et durable."
+        }
+      }
+    },
+    "callToAction": {
+      "title": "Vous souhaitez faire évoluer votre processus?",
+      "subtitle": "Contactez-nous pour une solution personnalisée",
+      "textButton": "Envoyer un e-mail"
+    },
+    "text1": "M.G. Filtration Technology Ltd. est née d’un projet italien visant à concevoir et produire des filtres à membrane utilisant la technologie de filtration tangentielle. Nous développons et mettons également en œuvre des installations adaptées à chaque besoin.",
+    "text2": "Nous nous engageons à offrir une assistance technique maximale et un service professionnel à nos clients, en développant des processus et des installations de séparation adaptés à chaque industrie.",
+    "text3": "Nous travaillons au développement et à l’application de solutions globales pour le traitement de l’eau et des liquides dans les secteurs industriel et civil, en utilisant des technologies telles que la Microfiltration, l’Ultrafiltration, la Nanofiltration et l’Osmose Inverse.",
+    "text4": "Grâce à notre laboratoire de chimie, physique et biologie, et à notre expertise technique, nous avons développé une série d’unités pilotes permettant de réaliser des essais préliminaires sur de petits volumes. Cela nous permet de sélectionner la membrane la plus adaptée et d’optimiser les paramètres du processus à l’échelle industrielle."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous aider.",
+    "sendEmail": "Envoyer un e-mail",
+    "call": "Appeler",
+    "umberto": {
+      "name": "Umberto Ramella",
+      "position": "Saler Manager",
+      "email": "ramella@mgfiltration.com",
+      "tel": "(ITA) +3484434004"
+    },
+    "gospodinka": {
+      "name": "G.Zhecheva",
+      "position": "Administration",
+      "email": "zhecheva@mgfiltration.com",
+      "tel": "(BG) +359884315151"
+    }
+  },
+  "whatWeDo": {
+    "title": "Ce que nous faisons",
+    "cards": {
+      "card1": {
+        "title": "Production de membranes standards et sur mesure",
+        "subtitle": "Nous concevons et fabriquons des membranes haute performance, adaptées à chaque besoin."
+      },
+      "card2": {
+        "title": "Séparation, concentration et récupération",
+        "subtitle": "Des solutions durables pour tirer le meilleur parti de chaque ressource."
+      },
+      "card3": {
+        "title": "Traitement des eaux primaires et usées",
+        "subtitle": "Des procédés fiables pour une eau propre et réutilisable."
+      },
+      "card4": {
+        "title": "Conception et mise en œuvre d’installations industrielles",
+        "subtitle": "Des unités sur mesure avec les dernières technologies."
+      }
+    }
+  },
+  "industries": {
+    "title": "Plus de qualité pour votre industrie",
+    "text1": "Œnologie",
+    "text2": "Agroalimentaire et boissons",
+    "text3": "Pharmaceutique"
+  },
+  "why": {
+    "title": "Pourquoi choisir la filtration par membrane?",
+    "subtitle": "Contrairement aux méthodes de séparation traditionnelles (précipitation chimique, boues activées, distillation, évaporation, cryo-séparation, etc.), la technologie membranaire offre des avantages clés.",
+    "cards": {
+      "card1": {
+        "title": "Séparation physique",
+        "subtitle": "Sans produits chimiques"
+      },
+      "card2": {
+        "title": "Faible consommation d’énergie",
+        "subtitle": "Seulement de la pression, pas de chaleur"
+      },
+      "card3": {
+        "title": "Réutilisation de l’eau",
+        "subtitle": "Eau prête à être réutilisée"
+      },
+      "card4": {
+        "title": "Récupération de composés",
+        "subtitle": "Une valeur ajoutée à partir des résidus"
+      }
+    }
+  },
+  "plants": {
+    "title": "Nos types de filtration",
+    "button": "En savoir plus",
+    "cards": {
+      "card1": {
+        "title": "Microfiltration",
+        "subtitle": "Filtration de précision pour les vins, les boissons, les aliments et les produits pharmaceutiques. Élimine les solides, les bactéries et la turbidité sans altérer les arômes ni les propriétés du produit.",
+        "subtitleContent": "Les installations de type MTW sont utilisées dans les secteurs œnologique, des boissons, alimentaire et pharmaceutique.",
+        "content": {
+          "applications": {
+            "title": "Applications par industrie",
+            "eonology": [
+              "Conçues pour filtrer les moûts, vins et vinaigres lors de la clarification.",
+              "Traitent des produits avec une turbidité jusqu’à 4000 NTU, garantissant une sortie avec une turbidité < 1 NTU.",
+              "Indice de filtration : entre 5 et 9.",
+              "Élimine l’utilisation d’auxiliaires comme les terres de diatomées, plaques, cartouches, etc.",
+              "Remplace les systèmes traditionnels comme les centrifugeuses ou les filtres lents."
+            ],
+            "beveragesAndFood": [
+              "Microfiltration des eaux de surface (élimination de 99,99 % des bactéries).",
+              "Réduction de la turbidité à < 0,001 NTU.",
+              "Microfiltration avant mise en bouteille.",
+              "Microfiltration du lait et du lactosérum à température ambiante.",
+              "Microfiltration des produits alimentaires liquides pour éliminer les solides en suspension."
+            ],
+            "pharmaceuticals": [
+              "Microfiltration des solutions physiologiques.",
+              "Microfiltration des bouillons de fermentation.",
+              "Microfiltration des médicaments liquides pour élimination des bactéries et des solides en suspension."
+            ]
+          },
+          "advantages": {
+            "title": "Technologie et avantages techniques",
+            "list": [
+              "Membranes de nouvelle génération sans charge électrique.",
+              "Grades de filtration : 0,2 – 0,45 – 0,8 microns.",
+              "Conservation des composés aromatiques.",
+              "Récupération du produit traité > 99 %.",
+              "Pas d’augmentation de température du produit.",
+              "Configuration disponible : manuelle, semi-automatique ou automatique."
+            ],
+            "list2": {
+              "text": "Paramètres qui restent inchangés:",
+              "list": [
+                "Densité optique",
+                "Polyphénols totaux",
+                "Anthocyanes totaux",
+                "Extrait sec net et total",
+                "Cendres",
+                "Alcool",
+                "Sucres",
+                "Acidité totale"
+              ]
+            }
+          },
+          "benefits": {
+            "title": "Avantages",
+            "list": [
+              "Haute efficacité sans altérer le produit.",
+              "Pas besoin d’additifs ni d’auxiliaires.",
+              "Faible impact thermique.",
+              "Maintien des paramètres organoleptiques.",
+              "Économies sur les consommables et les déchets."
+            ]
+          }
+        }
+      },
+      "card2": {
+        "title": "Ultrafiltration",
+        "subtitle": "Technologie avancée pour séparer des composants tels que les protéines, les polyphénols ou les colorants dans les vins, les aliments et les produits pharmaceutiques, sans altérer leurs propriétés d’origine.",
+        "subtitleContent": "Les installations d’ultrafiltration de M.G. Filtration Technology sont utilisées dans les secteurs œnologique, des boissons, alimentaire et pharmaceutique.",
+        "content": {
+          "applications": {
+            "title": "Applications par industrie",
+            "eonology": [
+              "Traitement des moûts, vins et vinaigres.",
+              "Obtention de deux produits (perméat et concentré) organoleptiquement identiques à l’original, mais avec une teneur différente en anthocyanes et en polyphénols.",
+              "Permet une décoloration totale ou partielle sans altérer les autres paramètres du produit.",
+              "Remplace l’utilisation traditionnelle du charbon actif.",
+              "Taux de récupération : entre 30 % et 70 %.",
+              "Construction en acier inoxydable AISI 316.",
+              "Disponible en configuration semi-automatique ou automatique."
+            ],
+            "beveragesAndFood": [
+              "Concentration des protéines par séparation physique.",
+              "Maintien des valeurs fonctionnelles et nutritionnelles du produit initial."
+            ],
+            "pharmaceuticals": [
+              "Décoloration de médicaments génériques en phase liquide.",
+              "Dépyrogénation efficace des produits traités."
+            ]
+          },
+          "advantages": {
+            "title": "Technologie et avantages techniques",
+            "list": [
+              "Processus physique développé en 2013 par M.G. Filtration Technology.",
+              "Remplacement total du charbon actif avec des avantages significatifs : pas de coût d’achat de charbon, élimination du coût de gestion des déchets, et conservation des arômes et de la couleur grâce à l’absence de pertes dues à l’absorption chimique.",
+              "Séparation physique par membranes au lieu de procédés chimiques."
+            ]
+          },
+          "benefits": {
+            "title": "Avantages",
+            "list": [
+              "Décoloration précise sans agents chimiques.",
+              "Préservation des propriétés organoleptiques.",
+              "Réduction des coûts d’exploitation et des déchets.",
+              "Système adaptable à différents secteurs.",
+              "Alternative sûre et efficace à l’utilisation du charbon actif."
+            ]
+          }
+        }
+      },
+      "card4": {
+        "title": "Osmose Inverse",
+        "subtitle": "Technologie haute pression pour purifier, concentrer ou séparer des composants dans les vins, les aliments et les produits pharmaceutiques, garantissant une précision et des performances supérieures.",
+        "subtitleContent": "Les installations de type MOVIRO de M.G. Filtration Technology sont utilisées dans les secteurs œnologique, des boissons, alimentaire et pharmaceutique.",
+        "content": {
+          "applications": {
+            "title": "Applications par industrie",
+            "eonology": [
+              "Extraction de l’eau et des sucres.",
+              "Neutralisation des acides : malique, lactique, tartrique, acétique, acidité totale et autres acides en excès.",
+              "Élimination des tanins verts, pyrazines, éthylphénols et molécules responsables des mauvaises odeurs (comme Brettanomyces).",
+              "Concentration des anthocyanes, polyphénols, extraits, alcool et degré acétique.",
+              "Désalcoolisation partielle ou totale.",
+              "Stabilisation tartrique."
+            ],
+            "beveragesAndFood": [
+              "Production d’eau déminéralisée.",
+              "Concentration de jus, liquides alimentaires, colorants et protéines.",
+              "Extraction de l’eau.",
+              "Séparation et concentration des sels monovalents et trivalents."
+            ],
+            "pharmaceuticals": [
+              "Production d’eau déminéralisée.",
+              "Purification et décoloration de solutions chimiques.",
+              "Concentration de vitamines et principes actifs.",
+              "Purification de bouillons de fermentation."
+            ]
+          },
+          "advantages": {
+            "title": "Technologie et avantages techniques",
+            "list": [
+              "Plage de pression de fonctionnement : de 3 à 100 bars, selon le processus.",
+              "Utilisation de membranes spirales d’osmose inverse.",
+              "Construction 100 % en acier inoxydable AISI 316.",
+              "Configuration personnalisable : manuelle, semi-automatique ou automatique.",
+              "Capacité de concentration instantanée entre 50 % et 75 %.",
+              "Pression de fonctionnement maximale : 100 atmosphères."
+            ]
+          },
+          "benefits": {
+            "title": "Avantages",
+            "list": [
+              "Processus à haute efficacité grâce à la séparation par membrane.",
+              "Permet un fonctionnement à haute pression en toute sécurité.",
+              "Conservation des paramètres organoleptiques dans les produits sensibles.",
+              "Élimination sélective des composés indésirables sans additifs chimiques.",
+              "Adaptable à de nombreux secteurs avec un seul système modulaire."
+            ]
+          }
+        }
+      },
+      "card5": {
+        "title": "Stabilisation",
+        "subtitle": "Solution innovante pour éliminer les tartrates sans altérer le vin. Stabilise les vins blancs, rosés, rouges et les moûts à température ambiante, en préservant leurs propriétés organoleptiques et en réduisant les coûts d’exploitation.",
+        "subtitleContent": "Les installations de type MOVIRO de M.G. Filtration Technology sont utilisées dans les secteurs œnologique, des boissons, alimentaire et pharmaceutique.",
+        "content": {
+          "why": {
+            "title": "Pourquoi la stabilisation est-elle nécessaire?",
+            "text": "Après la précipitation du bitartrate de potassium, tous les vins doivent être soumis à un processus de stabilisation tartrique afin d’éviter la cristallisation indésirable en bouteille. Les installations développées par M.G. Filtration Technology offrent une alternative moderne et efficace aux méthodes traditionnelles telles que les résines échangeuses d’ions, l’électrodialyse et la stabilisation à froid."
+          },
+          "howWork": {
+            "title": "Comment fonctionne la stabilisation par membrane?",
+            "text1": "Le système repose sur une séparation par membrane, permettant une sursaturation contrôlée de l’acide tartrique et du potassium. Cela provoque la formation de cristaux, lesquels sont éliminés à l’aide de filtres de nouvelle génération.",
+            "text2": "Ensuite, le vin est recombiné avec l’eau, et un capteur de conductivité permet de déterminer le point d’équilibre idéal pour garantir la stabilité tartrique du produit final."
+          },
+          "version": {
+            "title": "Version pour petits domaines viticoles",
+            "text": "Pour les petits domaines viticoles, une version compacte du système a été développée, utilisant deux installations adjacentes. Bien qu’elle ne fonctionne pas en continu, elle garantit les avantages de la stabilisation par membrane avec un investissement optimisé."
+          },
+          "benefits": {
+            "title": "Avantages",
+            "list": [
+              "Adapté aux vins blancs, rosés, rouges et aux moûts.",
+              "Aucun stress thermique (température pratiquement constante).",
+              "Fonctionnement à température ambiante.",
+              "Préserve les caractéristiques organoleptiques (structure et arôme).",
+              "Élimination précise des tartrates selon les exigences du client.",
+              "Faible consommation d’énergie.",
+              "Réduction des coûts d’exploitation.",
+              "Fonctionnement automatique et continu."
+            ]
+          }
+        }
+      }
+    }
+  }
 }

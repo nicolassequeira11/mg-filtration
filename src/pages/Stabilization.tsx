@@ -27,7 +27,7 @@ export const Stabilization = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="100"
             data-aos-offset="0"
-            className="text-lg"
+            className=""
           >
             {t("plants.cards.card5.content.why.text")}
           </p>
@@ -49,10 +49,10 @@ export const Stabilization = () => {
           data-aos-offset="0"
           className="mx-auto w-[70rem] max-w-[95vw] max-md:w-10/12 mt-12"
         >         
-          <p className="text-lg">
+          <p className="">
             {t("plants.cards.card5.content.howWork.text1")}
           </p>
-          <p className="mt-4 text-lg">
+          <p className="mt-4">
             {t("plants.cards.card5.content.howWork.text2")}
           </p>
         </div>
@@ -73,7 +73,7 @@ export const Stabilization = () => {
           data-aos-offset="0"
           className="mx-auto w-[70rem] max-w-[95vw] max-md:w-10/12 mt-12"
         >         
-          <p className="text-lg">
+          <p className="">
             {t("plants.cards.card5.content.version.text")}
           </p>
         </div>

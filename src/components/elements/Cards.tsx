@@ -72,7 +72,7 @@ export const WhatWeDoCard = ({ image, title, subtitle }: Cards) => {
         {image}
       </p>
 
-      <div className="m-auto mt-0 pl-2">
+      <div className="m-auto mt-0 pl-2 max-md:mx-0">
         <p className="text-xl font-semibold pb-2 max-md:text-lg font-raleway">
           {title}
         </p>
@@ -197,7 +197,7 @@ export const BenefitsCard = ({ array }: BenefitsCard) => {
             <FaStar 
               className="text-amber-400 shrink-0 w-5 h-5" 
             />
-            <span className="text-lg leading-tight text-gray-500 ms-3">
+            <span className="leading-tight text-gray-500 ms-3">
               {item}
             </span>
           </li>

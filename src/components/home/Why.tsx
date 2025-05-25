@@ -55,7 +55,7 @@ export const WhyHome = () => {
             <img 
               src={ImageFilterMembrane} 
               alt="" 
-              className="my-auto max-lg:mb-6 max-md:w-10/12 max-md:mx-auto"
+              className="my-auto max-lg:mb-6 max-md:w-9/12 max-md:mx-auto"
             />
           </div>
 

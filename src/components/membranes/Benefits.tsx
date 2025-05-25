@@ -18,7 +18,7 @@ export const BenefitsLayout = ({newArray}: TypeBenefitsLayout) => {
       className="my-20"
     >
       {/* Title */}
-      <div className="my-10 max-md:w-11/12 mx-auto">
+      <div className="mt-10 max-md:w-11/12 mx-auto">
         <TitleSection 
           text={t('plants.cards.card1.content.benefits.title')}
           textConfig={"text-center"}
@@ -26,7 +26,7 @@ export const BenefitsLayout = ({newArray}: TypeBenefitsLayout) => {
       </div>
     
       {/* Content */}
-      <div className="flex justify-center mx-auto w-[70rem] max-w-[95vw] mt-12 max-md:w-11/12">
+      <div className="flex justify-center mx-auto w-[70rem] max-w-[95vw] mt-6 max-md:w-11/12">
         <BenefitsCard 
           array={newArray}
         />

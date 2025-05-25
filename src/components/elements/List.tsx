@@ -24,7 +24,7 @@ export const List = ({array}: List) => {
                   d="M1 5.917 5.724 10.5 15 1.5"
                 />
             </svg>
-            <span className="text-lg">
+            <span className="">
               {item}
             </span>
           </li>

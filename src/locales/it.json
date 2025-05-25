@@ -76,6 +76,24 @@
     "text3": "Lavoriamo allo sviluppo e all’applicazione di soluzioni globali per il trattamento delle acque e dei liquidi nei settori industriale e civile, impiegando tecnologie come: Microfiltrazione, Ultrafiltrazione, Nanofiltrazione e Osmosi Inversa.",
     "text4": "Grazie al nostro laboratorio chimico, fisico e biologico, e alla nostra esperienza tecnica, abbiamo sviluppato una serie di impianti pilota che permettono di effettuare test preliminari su piccoli volumi. In questo modo selezioniamo la membrana più adatta e ottimizziamo i parametri del processo su scala industriale."
   },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Siamo qui per aiutarti.",
+    "sendEmail": "Invia email",
+    "call": "Chiamare",
+    "umberto": {
+      "name": "Umberto Ramella",
+      "position": "Saler Manager",
+      "email": "ramella@mgfiltration.com",
+      "tel": "(ITA) +3484434004"
+    },
+    "gospodinka": {
+      "name": "G.Zhecheva",
+      "position": "Amministrazione",
+      "email": "zhecheva@mgfiltration.com",
+      "tel": "(BG) +359884315151"
+    }
+  },
   "whatWeDo": {
     "title": "Cosa facciamo",
     "cards": {

@@ -29,8 +29,8 @@ export const Contact = () => {
           tel={t("contact.umberto.tel")}
           mailto="mailto:ramella@mgfiltration.com"
           telto="tel:+3484434004"
-          textEmail="Enviar correo"
-          textTel="Llamar"
+          textEmail={t("contact.sendEmail")}
+          textTel={t("contact.call")}
         />
         <ContactCard 
           image={GospodinkaCover}
@@ -40,8 +40,8 @@ export const Contact = () => {
           tel={t("contact.gospodinka.tel")}
           mailto="mailto:zhecheva@mgfiltration.com"
           telto="tel:+359884315151"
-          textEmail="Enviar correo"
-          textTel="Llamar"
+          textEmail={t("contact.sendEmail")}
+          textTel={t("contact.call")}
         />
       </div>
 

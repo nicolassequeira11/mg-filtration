@@ -79,6 +79,8 @@
   "contact": {
     "title": "Contáctanos",
     "subtitle": "Estamos aquí para ayudarte.",
+    "sendEmail": "Enviar correo",
+    "call": "Llamar",
     "umberto": {
       "name": "Umberto Ramella",
       "position": "Saler Manager",
@@ -87,7 +89,7 @@
     },
     "gospodinka": {
       "name": "G.Zhecheva",
-      "position": "Administration",
+      "position": "Administración",
       "email": "zhecheva@mgfiltration.com",
       "tel": "(BG) +359884315151"
     }
@@ -254,53 +256,53 @@
         }
       },
       "card3": {
-        "title": "Nanofiltración",
-        "subtitle": "Soluciones versátiles para concentrar, purificar o eliminar compuestos específicos en vinos, alimentos y productos farmacéuticos, trabajando a alta presión con máxima precisión.",
+        "title": "Nanofiltration",
+        "subtitle": "Solutions polyvalentes pour concentrer, purifier ou éliminer des composés spécifiques dans les vins, les aliments et les produits pharmaceutiques, fonctionnant à haute pression avec une précision maximale.",
         "subtitleContent": "Las plantas tipo MOVIRO de M.G. Filtration Technology se aplican en enología, en la industria de las bebidas, la alimentaria y la farmacéutica.",
         "content": {
           "applications": {
-            "title": "Aplicaciones por industria",
+            "title": "Applications par secteur",
             "eonology": [
-              "Extracción de agua y azúcares.",
-              "Neutralización de ácidos: málico, láctico, tartárico, acético y acidez total.",
-              "Eliminación de taninos verdes, pirazinas, etilfenoles y moléculas asociadas a malos olores (como Brettanomyces).",
-              "Concentración de antocianinas, polifenoles, extractos y alcohol.",
-              "Desalcoholización parcial o total.",
-              "Estabilización tartárica.",
-              "Concentración del grado acético."
+              "Extraction de l’eau et des sucres.",
+              "Neutralisation des acides : malique, lactique, tartrique, acétique et acidité totale.",
+              "Élimination des tanins verts, pyrazines, éthylphénols et molécules responsables des mauvaises odeurs (comme Brettanomyces).",
+              "Concentration des anthocyanes, polyphénols, extraits et alcool.",
+              "Désalcoolisation partielle ou totale.",
+              "Stabilisation tartrique.",
+              "Concentration du degré acétique."
             ],
             "beveragesAndFood": [
-              "Producción de agua desmineralizada.",
-              "Concentración de jugos, líquidos alimentarios, colorantes y proteínas.",
-              "Extracción de agua.",
-              "Separación y concentración de sales monovalentes y trivalentes."
+              "Production d’eau déminéralisée.",
+              "Concentration de jus, liquides alimentaires, colorants et protéines.",
+              "Extraction de l’eau.",
+              "Séparation et concentration des sels monovalents et trivalents."
             ],
             "pharmaceuticals": [
-              "Producción de agua desmineralizada.",
-              "Purificación y decoloración de soluciones químicas.",
-              "Concentración de vitaminas y principios activos.",
-              "Purificación de caldos de fermentación."
+              "Production d’eau déminéralisée.",
+              "Purification et décoloration de solutions chimiques.",
+              "Concentration de vitamines et principes actifs.",
+              "Purification de bouillons de fermentation."
             ]
           },
           "advantages": {
-            "title": "Tecnología y ventajas técnicas",
+            "title": "Technologie et avantages techniques",
             "list": [
-              "Capacidad de trabajo con presiones de 3 a 100 bar, según el proceso y membrana utilizada.",
-              "Compatible con membranas en espiral de Ultrafiltración, Nanofiltración y Ósmosis Inversa.",
-              "Construcción en acero inoxidable AISI 316.",
-              "Configuración disponible: manual, semiautomática o automática.",
-              "Capacidad de concentración instantánea entre 50% y 75%.",
-              "Presión de operación máxima: 100 atmósferas."
+              "Capacité de fonctionnement à des pressions de 3 à 100 bars, selon le processus et la membrane utilisée.",
+              "Compatible avec les membranes spirales d’Ultrafiltration, Nanofiltration et Osmose Inverse.",
+              "Construction en acier inoxydable AISI 316.",
+              "Configurations disponibles : manuelle, semi-automatique ou automatique.",
+              "Capacité de concentration instantanée entre 50 % et 75 %.",
+              "Pression de fonctionnement maximale : 100 atmosphères."
             ]
           },
           "benefits": {
-            "title": "Beneficios",
+            "title": "Avantages",
             "list": [
-              "Gran versatilidad según tipo de membrana (UF, NF, RO).",
-              "Alta capacidad de concentración con bajo impacto en la calidad del producto.",
-              "Sustitución de procesos químicos por separación física.",
-              "Eficiencia energética y operativa gracias a su diseño.",
-              "Apta para múltiples industrias con un solo sistema adaptable."
+              "Grande polyvalence selon le type de membrane (UF, NF, RO).",
+              "Forte capacité de concentration avec un faible impact sur la qualité du produit.",
+              "Remplacement des procédés chimiques par la séparation physique.",
+              "Efficacité énergétique et opérationnelle grâce à son design.",
+              "Convient à de nombreux secteurs avec un seul système adaptable."
             ]
           }
         }
@@ -318,8 +320,7 @@
               "Eliminación de taninos verdes, pirazinas, etilfenoles y moléculas asociadas a malos olores (como Brettanomyces).",
               "Concentración de antocianinas, polifenoles, extractos, alcohol y grado acético.",
               "Desalcoholización parcial o total.",
-              "Estabilización tartárica.",
-              "Desalcoholización parcial o total."
+              "Estabilización tartárica."
             ],
             "beveragesAndFood": [
               "Producción de agua desmineralizada.",

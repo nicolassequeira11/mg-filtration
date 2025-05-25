@@ -1,6 +1,7 @@
 // import ImageSIMEI from "../../assets/simei-2017-logo.jpg"
 // import ImageDrinktec from "../../assets/coversimeidrinktec.jpg"
 import Logo from "../../assets/mg-filtration-logo-footer.png"
+import { useTranslation } from "react-i18next";
 
 import { MdEmail } from "react-icons/md";
 import { HiPhone } from "react-icons/hi2";
@@ -8,6 +9,8 @@ import { MdLocationOn } from "react-icons/md";
 
 
 export const Footer = () => {
+  const {t} = useTranslation();
+  
   return(
     <div className="bottom-0">
       <div 
@@ -38,10 +41,10 @@ export const Footer = () => {
                   className="text-[20px] w-fit" 
                 />
                 <a 
-                  href="mailto:info@mgfiltration.com" 
+                  href="mailto:mgfiltrazioni@gmail.com" 
                   className="text-sm hover:text-red-mg"
                 >
-                  info@mgfiltration.com
+                  mgfiltrazioni@gmail.com
                 </a>
               </div>
 
@@ -123,7 +126,7 @@ export const Footer = () => {
 
                 {/* Position */}
                 <p className="">
-                  Administration
+                  {t("contact.gospodinka.position")}
                 </p>
               </div>
 

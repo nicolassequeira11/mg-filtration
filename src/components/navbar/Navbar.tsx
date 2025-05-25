@@ -59,7 +59,7 @@ export const Navbar = () => {
             <img 
               src={Logo} 
               alt="MG Filtration Technology" 
-              className="object-contain mx-auto w-[80%]"
+              className="object-contain w-[80%]"
             />
           </div>
         </Link>
