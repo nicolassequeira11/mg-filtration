@@ -44,7 +44,7 @@ export const WhyCard = ({ image, title, subtitle }: Cards) => {
       </p>
 
       <div className="m-auto">
-        <p className="text-xl font-semibold font-raleway">
+        <p className="text-xl font-semibold max-md:text-lg font-raleway">
           {title}
         </p>
         <p>
