@@ -4,6 +4,7 @@ import { Header } from "../components/elements/Headers";
 import { CommitmentCard } from "../components/elements/Cards";
 import { TitleSection } from "../components/elements/Titles";
 import { Timeline } from "../components/elements/Timelines";
+import { Helmet } from "react-helmet";
 
 import { MdOutlineRecycling } from "react-icons/md";
 import { IoIosRocket } from "react-icons/io";
@@ -47,156 +48,165 @@ export const AboutUs = ({ language }: { language: string }) => {
   ]
 
   return(
-    <div>
-      <Header 
-        text={t("aboutUs.title")}
-        description={t("aboutUs.subtitle")}
-      />
+    <>
+      <Helmet>
+        <html lang={i18n.language} />
+        <title>{t("seo.aboutus.title")}</title>
+        <meta name="description" content={t("seo.aboutus.description")} />
+        <link rel="canonical" href={`https://www.mgfiltration.com/${language}`} />
+      </Helmet>
 
-      <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
+      <section>
+        <Header 
+          text={t("aboutUs.title")}
+          description={t("aboutUs.subtitle")}
+        />
 
-        {/* Who */}
-        <div 
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="100"
-          data-aos-offset="0"
-          className="mb-20 mt-12"
-        >
+        <div className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
 
-          {/* Title */}
-          {/* <TitleSection 
-            text={t("aboutUs.who.title")}
-            textConfig="text-center"
-          /> */}
+          {/* Who */}
+          <div 
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="100"
+            data-aos-offset="0"
+            className="mb-20 mt-12"
+          >
 
-          <div className="mt-20 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12">
-            <div className="w-1/2 max-lg:w-full">
-              <p className="max-lg:-mt-6">
-                {t("aboutUs.who.text1")}
-              </p>
-              <p className="mt-6">
-                {t("aboutUs.who.text2")}
-              </p>
-              <p className="mt-6">
-                {t("aboutUs.who.text3")}
-              </p>
-              <p className="mt-6">
-                {t("aboutUs.who.text4")}
-              </p>
+            {/* Title */}
+            {/* <TitleSection 
+              text={t("aboutUs.who.title")}
+              textConfig="text-center"
+            /> */}
+
+            <div className="mt-20 flex gap-12 max-lg:m-auto max-lg:flex-col-reverse max-lg:w-11/12">
+              <div className="w-1/2 max-lg:w-full">
+                <p className="max-lg:-mt-6">
+                  {t("aboutUs.who.text1")}
+                </p>
+                <p className="mt-6">
+                  {t("aboutUs.who.text2")}
+                </p>
+                <p className="mt-6">
+                  {t("aboutUs.who.text3")}
+                </p>
+                <p className="mt-6">
+                  {t("aboutUs.who.text4")}
+                </p>
+              </div>
+
+              {/* Image */}
+              <div className="w-1/2 max-lg:w-full flex max-lg:mt-8">
+                <img 
+                  src={ImageWho} 
+                  alt=""
+                  className="rounded-bl-4xl rounded-tr-4xl h-full object-cover object-center flex w-full
+                    max-sm:h-[200px]
+                    max-lg:h-[300px] 
+                    " 
+                />
+              </div>
             </div>
+          </div>
 
-            {/* Image */}
-            <div className="w-1/2 max-lg:w-full flex max-lg:mt-8">
-              <img 
-                src={ImageWho} 
-                alt=""
-                className="rounded-bl-4xl rounded-tr-4xl h-full object-cover object-center flex w-full
-                  max-sm:h-[200px]
-                  max-lg:h-[300px] 
-                  " 
+          {/* Timeline */}
+          <div className="min-lg:py-20 mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
+
+            {/* Title */}
+            <TitleSection 
+              text={t("aboutUs.timeline.title")}
+              textConfig="text-center"
+            />
+
+            <div 
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0"
+              className="mt-16"
+            >
+              <Timeline 
+                array={arrayTimeline}
+              />
+            </div>
+          </div>
+
+          {/* Commitment */}
+          <div className="my-20">
+
+            {/* Title */}
+            <TitleSection 
+              text={t("aboutUs.commitment.title")}
+              textConfig="text-center"
+            />
+
+            {/* Content */}
+            <div className="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-4 gap-6 mt-16">
+              <CommitmentCard 
+                image={<MdOutlineRecycling />}
+                title={t("aboutUs.commitment.cards.card1.title")}
+                subtitle={t("aboutUs.commitment.cards.card1.text")}
+                style="text-green-600"
+              />
+              <CommitmentCard 
+                image={<IoIosRocket />}
+                title={t("aboutUs.commitment.cards.card2.title")}
+                subtitle={t("aboutUs.commitment.cards.card2.text")}
+                style="text-gray-400"
+              />
+              <CommitmentCard 
+                image={<PiHandshakeFill />}
+                title={t("aboutUs.commitment.cards.card3.title")}
+                subtitle={t("aboutUs.commitment.cards.card3.text")}
+                style="text-yellow-500"
+              />
+              <CommitmentCard 
+                image={<IoWater />}
+                title={t("aboutUs.commitment.cards.card4.title")}
+                subtitle={t("aboutUs.commitment.cards.card4.text")}
+                style="text-blue-400"
               />
             </div>
           </div>
         </div>
 
-        {/* Timeline */}
-        <div className="min-lg:py-20 mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12">
-
-          {/* Title */}
-          <TitleSection 
-            text={t("aboutUs.timeline.title")}
-            textConfig="text-center"
-          />
+        {/* Call to action */}
+        <div className="mt-20 bg-[url(./assets/contact-calltoaction.jpg)] bg-center bg-cover py-16">
 
           <div 
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="100"
             data-aos-offset="0"
-            className="mt-16"
+            className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12"
           >
-            <Timeline 
-              array={arrayTimeline}
+            {/* Title */}
+            <TitleSection 
+              text={t("aboutUs.callToAction.title")}
+              textConfig="text-center text-white"
             />
+
+            {/* Subtitle */}
+            <p className="mt-4 text-center text-xl text-white max-md:text-lg">
+              {t("aboutUs.callToAction.subtitle")}
+            </p>
+
+            {/* Button */}
+            <a 
+              href="mailto:info@mgfiltration.com" 
+              className="text-3xl text-center mx-auto border-4 border-white hover:text-white px-8 py-4 
+                rounded-full flex w-fit mt-14 font-bold font-raleway hover:bg-transparent hover:shadow-none
+                transition-all ease-in duration-100
+                bg-white text-red-mg shadow-2xl
+                max-md:text-2xl"
+            >
+              {t("aboutUs.callToAction.textButton")}
+            </a>
+
           </div>
         </div>
 
-        {/* Commitment */}
-        <div className="my-20">
-
-          {/* Title */}
-          <TitleSection 
-            text={t("aboutUs.commitment.title")}
-            textConfig="text-center"
-          />
-
-          {/* Content */}
-          <div className="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-4 gap-6 mt-16">
-            <CommitmentCard 
-              image={<MdOutlineRecycling />}
-              title={t("aboutUs.commitment.cards.card1.title")}
-              subtitle={t("aboutUs.commitment.cards.card1.text")}
-              style="text-green-600"
-            />
-            <CommitmentCard 
-              image={<IoIosRocket />}
-              title={t("aboutUs.commitment.cards.card2.title")}
-              subtitle={t("aboutUs.commitment.cards.card2.text")}
-              style="text-gray-400"
-            />
-            <CommitmentCard 
-              image={<PiHandshakeFill />}
-              title={t("aboutUs.commitment.cards.card3.title")}
-              subtitle={t("aboutUs.commitment.cards.card3.text")}
-              style="text-yellow-500"
-            />
-            <CommitmentCard 
-              image={<IoWater />}
-              title={t("aboutUs.commitment.cards.card4.title")}
-              subtitle={t("aboutUs.commitment.cards.card4.text")}
-              style="text-blue-400"
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* Call to action */}
-      <div className="mt-20 bg-[url(./assets/contact-calltoaction.jpg)] bg-center bg-cover py-16">
-
-        <div 
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="100"
-          data-aos-offset="0"
-          className="mx-auto w-[70rem] max-w-[95vw] max-md:w-11/12"
-        >
-          {/* Title */}
-          <TitleSection 
-            text={t("aboutUs.callToAction.title")}
-            textConfig="text-center text-white"
-          />
-
-          {/* Subtitle */}
-          <p className="mt-4 text-center text-xl text-white max-md:text-lg">
-            {t("aboutUs.callToAction.subtitle")}
-          </p>
-
-          {/* Button */}
-          <a 
-            href="mailto:info@mgfiltration.com" 
-            className="text-3xl text-center mx-auto border-4 border-white hover:text-white px-8 py-4 
-              rounded-full flex w-fit mt-14 font-bold font-raleway hover:bg-transparent hover:shadow-none
-              transition-all ease-in duration-100
-              bg-white text-red-mg shadow-2xl
-              max-md:text-2xl"
-          >
-            {t("aboutUs.callToAction.textButton")}
-          </a>
-
-        </div>
-      </div>
-
-    </div>
+      </section>
+    </>
   )
 }

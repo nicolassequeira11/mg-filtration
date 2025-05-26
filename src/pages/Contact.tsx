@@ -19,8 +19,8 @@ export const Contact = ({ language }: { language: string }) => {
     <>
       <Helmet>
         <html lang={i18n.language} />
-        <title>{t("seo.home.title")}</title>
-        <meta name="description" content={t("seo.home.description")} />
+        <title>{t("seo.contact.title")}</title>
+        <meta name="description" content={t("seo.contact.description")} />
         <link rel="canonical" href={`https://www.mgfiltration.com/${language}`} />
       </Helmet>
 
