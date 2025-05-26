@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { ButtonDropdown } from "../elements/Buttons";
 
 export const Navbar = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -18,6 +18,9 @@ export const Navbar = () => {
   const handleClickLink = () => {
     setIsMenuOpen(false)
   }
+
+  // Prefijo con idioma actual, ejemplo "/es"
+  const langPrefix = `/${i18n.language}`;
 
   const links = [
     {
@@ -51,7 +54,7 @@ export const Navbar = () => {
 
         {/* Logo */}
         <Link 
-          to="/" 
+          to={`${langPrefix}/`}
           className="w-2/6 my-auto max-sm:w-7/12"
           onClick={handleClickLink}
         >
@@ -69,17 +72,20 @@ export const Navbar = () => {
           className="grid-cols-4 w-fit grid m-auto gap-6 font-semibold font-raleway text-center
             max-lg:hidden "
         >
-          <Link to="/" className="hover:text-red-mg">
+          <Link to={`${langPrefix}/`} className="hover:text-red-mg">
             {t('navbarLinks.Home')}
           </Link>
           <ButtonDropdown 
             title={t('navbarLinks.Filters')}
-            array={links}
+              array={links.map(link => ({
+                ...link,
+                link: `${langPrefix}${link.link}`
+              }))}
           />
-          <Link to="/aboutus" className="hover:text-red-mg">
+          <Link to={`${langPrefix}/aboutus`} className="hover:text-red-mg">
             {t('navbarLinks.AboutUs')}
           </Link>
-          <Link to="/contact" className="hover:text-red-mg">
+          <Link to={`${langPrefix}/contact`} className="hover:text-red-mg">
             {t('navbarLinks.Contact')}
           </Link>
         </div>
@@ -111,18 +117,21 @@ export const Navbar = () => {
             className="w-full py-6 mx-auto absolute max-lg:gap-6 top-[75px] left-0 right-0 z-50 
               flex flex-col bg-white"
           >
-            <Link to="/" className="text-[17px]" onClick={handleClickLink}>
+            <Link to={`${langPrefix}/`} className="text-[17px]" onClick={handleClickLink}>
               {t('navbarLinks.Home')}
             </Link>
             <ButtonDropdown 
               onClick={handleClickLink}
               title={t('navbarLinks.Filters')}
-              array={links}
+              array={links.map(link => ({
+                ...link,
+                link: `${langPrefix}${link.link}`
+              }))}
             />
-            <Link to="/aboutus" className="text-[17px]" onClick={handleClickLink}>
+            <Link to={`${langPrefix}/aboutus`} className="text-[17px]" onClick={handleClickLink}>
               {t('navbarLinks.AboutUs')}
             </Link>
-            <Link to="/contact" className="text-[17px]" onClick={handleClickLink}>
+            <Link to={`${langPrefix}/contact`} className="text-[17px]" onClick={handleClickLink}>
               {t('navbarLinks.Contact')}
             </Link>
           </div>

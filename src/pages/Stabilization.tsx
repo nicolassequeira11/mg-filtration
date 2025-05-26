@@ -1,10 +1,15 @@
+import { useEffect } from "react";
 import { Header } from "../components/elements/Headers"
 import { useTranslation } from "react-i18next"
 import { BenefitsLayout } from "../components/membranes/Benefits"
 import { TitleSection } from "../components/elements/Titles"
 
-export const Stabilization = () => {
-  const {t} = useTranslation()
+export const Stabilization = ({ language }: { language: string }) => {
+  const {t, i18n} = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage(language)
+  }, [language, i18n])
 
   return(
     <div>

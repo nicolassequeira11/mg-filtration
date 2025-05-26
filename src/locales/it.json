@@ -10,6 +10,40 @@
     "AboutUs": "Chi siamo",
     "Contact": "Contatto"
   },
+    "seo": {
+    "home": {
+      "title": "M.G. Filtration Technology | Soluzioni per la filtrazione a membrana e il trattamento delle acque",
+      "description": "Siete alla ricerca di soluzioni efficienti per il trattamento delle acque industriali? M.G. Filtration Technology sviluppa impianti su misura con tecnologia di filtrazione a membrana."
+    },
+    "contact": {
+      "title": "Contattaci | M.G. Filtration Technology",
+      "description": "Hai domande sui nostri impianti di filtrazione o vuoi richiedere un preventivo? Contatta M.G. Filtration Technology: il nostro team è a tua disposizione."
+    },
+    "aboutUs": {
+      "title": "Chi Siamo | M.G. Filtration Technology",
+      "description": "Scopri la missione, i valori e la storia di M.G. Filtration Technology, azienda specializzata in impianti di filtrazione per i settori enologico, alimentare e farmaceutico."
+    },
+    "microfiltration": {
+      "title": "Microfiltrazione | M.G. Filtration Technology",
+      "description": "Sistemi di microfiltrazione di alta qualità per garantire purezza e stabilità microbiologica nei settori enologico, alimentare e farmaceutico."
+    },
+    "ultrafiltration": {
+      "title": "Ultrafiltrazione | M.G. Filtration Technology",
+      "description": "Soluzioni avanzate di ultrafiltrazione per separare solidi disciolti, batteri e macromolecole nei processi industriali."
+    },
+    "nanofiltration": {
+      "title": "Nanofiltrazione | M.G. Filtration Technology",
+      "description": "Tecnologia di nanofiltrazione efficiente per ridurre sali, composti organici e contaminanti nei processi liquidi."
+    },
+    "reverseOsmosis": {
+      "title": "Osmosi Inversa | M.G. Filtration Technology",
+      "description": "Sistemi di osmosi inversa progettati per una purificazione profonda dell'acqua e di altri liquidi in diversi settori."
+    },
+    "stabilization": {
+      "title": "Stabilizzazione | M.G. Filtration Technology",
+      "description": "Soluzioni di stabilizzazione enologica per preservare qualità, limpidezza e stabilità di vini e bevande."
+    }
+  },
   "banner": {
     "title": "Tecnologia di filtrazione per un futuro più pulito",
     "subtitle": "Fai contare ogni goccia. Tecnologia efficiente, risultati misurabili."

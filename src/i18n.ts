@@ -7,26 +7,29 @@ import en from "./locales/en.json"
 import it from "./locales/it.json"
 import fr from "./locales/fr.json"
 
-// Traducciones
+// Traducciones con códigos en minúscula
 const resources = {
-  EN: { translation: en },
-  ES: { translation: es },
-  FR: { translation: fr },
-  IT: { translation: it },
+  en: { translation: en },
+  es: { translation: es },
+  fr: { translation: fr },
+  it: { translation: it },
 };
 
 i18n
-  .use(LanguageDetector) // Detecta el idioma del navegador/localStorage
+  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'ES',
+    fallbackLng: 'es',   // idioma por defecto en minúsculas
     interpolation: {
-      escapeValue: false, // React ya escapa valores
+      escapeValue: false,
     },
     detection: {
-      order: ['localStorage', 'navigator'],
-      caches: ['localStorage'],
+      // El orden para detectar el idioma incluye 'path' para detectar desde URL
+      order: ['path', 'localStorage', 'navigator', 'htmlTag', 'cookie'],
+      // El índice de segmento de URL donde está el idioma (ej. /es/...)
+      lookupFromPathIndex: 0,
+      caches: ['localStorage'], // guarda preferencia en localStorage
     },
   });
 

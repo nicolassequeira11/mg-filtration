@@ -10,6 +10,40 @@
     "AboutUs": "About us",
     "Contact": "Contact"
   },
+    "seo": {
+    "home": {
+      "title": "M.G. Filtration Technology - Membrane filtration and water treatment solutions",
+      "description": "Are you looking for efficient solutions for industrial water treatment? At M.G. Filtration Technology we develop customized plants with membrane filtration technology."
+    },
+    "contact": {
+      "title": "Contact Us | M.G. Filtration Technology",
+      "description": "Have questions about our filtration systems or want to request a quote? Get in touch with M.G. Filtration Technology — we’re here to help."
+    },
+    "aboutUs": {
+      "title": "About Us | M.G. Filtration Technology",
+      "description": "Learn more about the mission, values, and history of M.G. Filtration Technology, specialists in filtration systems for the wine, food, and pharmaceutical industries."
+    },
+    "microfiltration": {
+      "title": "Microfiltration | M.G. Filtration Technology",
+      "description": "High-quality microfiltration systems to ensure purity and microbiological stability in the wine, food and pharmaceutical industries."
+    },
+    "ultrafiltration": {
+      "title": "Ultrafiltration | M.G. Filtration Technology",
+      "description": "Advanced ultrafiltration solutions to separate dissolved solids, bacteria, and macromolecules in industrial processes."
+    },
+    "nanofiltration": {
+      "title": "Nanofiltration | M.G. Filtration Technology",
+      "description": "Efficient nanofiltration technology to reduce salts, organic compounds, and contaminants in liquid processes."
+    },
+    "reverseOsmosis": {
+      "title": "Reverse Osmosis | M.G. Filtration Technology",
+      "description": "Reverse osmosis systems designed for deep purification of water and other liquids across multiple industries."
+    },
+    "stabilization": {
+      "title": "Stabilization | M.G. Filtration Technology",
+      "description": "Oenological stabilization solutions to preserve the quality, clarity and stability of wines and beverages."
+    }
+  },
   "banner": {
     "title": "Filtration technology for a cleaner future",
     "subtitle": "Make every drop count. Efficient technology, measurable results."

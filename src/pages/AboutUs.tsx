@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next"
 import { Header } from "../components/elements/Headers";
 import { CommitmentCard } from "../components/elements/Cards";
@@ -15,8 +16,12 @@ import { RiTestTubeFill } from "react-icons/ri";
 import { FaTools } from "react-icons/fa";
 import { SiAdguard } from "react-icons/si";
 
-export const AboutUs = () => {
-  const {t} = useTranslation();
+export const AboutUs = ({ language }: { language: string }) => {
+  const {t, i18n} = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage(language)
+  }, [language, i18n])
 
   const arrayTimeline = [
     {

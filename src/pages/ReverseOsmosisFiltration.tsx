@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Header } from "../components/elements/Headers"
 import { useTranslation } from "react-i18next"
 import { ApplicationsLayout } from "../components/membranes/Applications"
@@ -6,8 +7,12 @@ import { BenefitsLayout } from "../components/membranes/Benefits"
 
 import Image from "../assets/plants/reverse-osmosis/reverse-osmosis-mgfiltration-cover.jpg"
 
-export const ReverseOsmosisFiltration = () => {
-  const {t} = useTranslation()
+export const ReverseOsmosisFiltration = ({ language }: { language: string }) => {
+  const {t, i18n} = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage(language)
+  }, [language, i18n])
 
   return(
     <div>

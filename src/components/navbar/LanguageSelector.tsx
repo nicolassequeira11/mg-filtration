@@ -1,43 +1,41 @@
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { ButtonLanguageSelection } from '../elements/Buttons';
 
 const languages = [
-  {
-    id: 1,
-    name: "EN",
-    value: "EN",
-    avatar: "https://flagcdn.com/gb.svg",
-  },
-  {
-    id: 2,
-    name: "IT",
-    value: "IT",
-    avatar: "https://flagcdn.com/it.svg",
-  },
-    {
-    id: 3,
-    name: "ES",
-    value: "ES",
-    avatar: "https://flagcdn.com/es.svg",
-  },
-  {
-    id: 4,
-    name: "FR",
-    value: "FR",
-    avatar: "https://flagcdn.com/fr.svg",
-  },
+  { id: 1, name: "EN", value: "en", avatar: "https://flagcdn.com/gb.svg" },
+  { id: 2, name: "IT", value: "it", avatar: "https://flagcdn.com/it.svg" },
+  { id: 3, name: "ES", value: "es", avatar: "https://flagcdn.com/es.svg" },
+  { id: 4, name: "FR", value: "fr", avatar: "https://flagcdn.com/fr.svg" },
 ];
 
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
+  const location = useLocation();
 
-  const initialLanguage = languages.find(lang => lang.value === i18n.language) || languages[0];
-  const [selected, setSelected] = useState(initialLanguage);
+  // Ajustamos valor de idioma a minúsculas para que coincida con rutas
+  const currentLang = languages.find(lang => lang.value === i18n.language) || languages[0];
+  const [selected, setSelected] = useState(currentLang);
+
+  useEffect(() => {
+    const newLang = languages.find(lang => lang.value === i18n.language);
+    if (newLang && newLang.value !== selected.value) {
+      setSelected(newLang);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [i18n.language]);
 
   const handleChange = (lang: typeof selected) => {
-    setSelected(lang);
-    i18n.changeLanguage(lang.value);
+    if (lang.value === selected.value) return;
+    
+    const pathParts = location.pathname.split('/').filter(Boolean);
+    if (pathParts.length === 0) {
+      window.location.href = `/${lang.value}`;
+    } else {
+      pathParts[0] = lang.value;
+      window.location.href = `/${pathParts.join('/')}`;
+    }
   };
 
   return (
