@@ -260,26 +260,85 @@ type ContactCard = {
   textTel: string;
 }
 
-export const ContactCard = ({ image, title, subtitle, email, tel, mailto, telto, textEmail, textTel }: ContactCard) => {
+// export const ContactCard2 = ({ image, title, subtitle, email, tel, mailto, telto, textEmail, textTel }: ContactCard) => {
+//   return(
+//     <div 
+//       data-aos="fade-zoom-in"
+//       data-aos-easing="ease-in-back"
+//       data-aos-delay="100"
+//       data-aos-offset="0"
+//       className="bg-white/90 flex w-[280px] min-w-[280px] max-w-[280px] flex-col rounded-xl shadow-lg max-md:mx-auto max-md:w-11/12"
+//     >
+//       <div className="relative">
+//         <img 
+//           src={image} 
+//           alt=""
+//           className="flex object-cover h-[300px] w-[280px] object-top rounded-xl"
+//         />
+//         <div className="bottom-0 absolute text-center w-full bg-black-mg/80 text-white py-2">
+//           <p className="text-lg font-semibold font-raleway max-md:text-lg">
+//             {title}
+//           </p>
+//           <p className="text-sm">
+//             {subtitle}
+//           </p>        
+//         </div>
+//       </div>
+
+//       <div className="p-5 text-center">
+
+//         <div className="flex flex-col gap-y-4">
+//           <a 
+//             href={mailto} 
+//             className="text-base pb-2 max-md:text-lg flex-col flex"
+//           >
+//             {email}
+//             <span className="mt-1">
+//               <a 
+//                 href={mailto}
+//                 className="text-sm bg-red-mg hover:bg-red-mg/80 px-3 py-1 rounded-full text-white" 
+//               >
+//                 {textEmail}
+//               </a>
+//             </span>
+//           </a>
+//           <a 
+//             href={telto}
+//             className="flex-col flex text-base"
+//           >
+//             {tel}
+//             <span className="mt-1">
+//               <a 
+//                 href={telto}
+//                 className="text-sm bg-red-mg hover:bg-red-mg/80 px-3 py-1 rounded-full text-white" 
+//               >
+//                 {textTel}
+//               </a>
+//             </span>
+//           </a>  
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
+
+export const ContactCard = ({ title, subtitle, email, tel, mailto, telto, textEmail, textTel }: ContactCard) => {
   return(
     <div 
       data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="100"
       data-aos-offset="0"
-      className="bg-white/90 flex w-[280px] min-w-[280px] max-w-[280px] flex-col rounded-xl shadow-lg max-md:mx-auto max-md:w-11/12"
+      className="bg-white/90 flex w-[280px] min-w-[280px] max-w-[280px] 
+        flex-col rounded-xl shadow-lg max-md:mx-auto max-md:w-11/12"
     >
-      <div className="relative">
-        <img 
-          src={image} 
-          alt=""
-          className="flex object-cover h-[300px] w-[280px] object-top rounded-xl"
-        />
-        <div className="bottom-0 absolute text-center w-full bg-black-mg/80 text-white py-2">
-          <p className="text-lg font-semibold font-raleway max-md:text-lg">
+      <div className="relative mt-14">
+
+        <div className="bottom-0 absolute rounded-t-xl text-center w-full bg-black-mg/80 text-white py-3">
+          <p className="text-2xl font-semibold font-raleway max-md:text-xl">
             {title}
           </p>
-          <p className="text-sm">
+          <p className="text-md">
             {subtitle}
           </p>        
         </div>
@@ -293,7 +352,7 @@ export const ContactCard = ({ image, title, subtitle, email, tel, mailto, telto,
             className="text-base pb-2 max-md:text-lg flex-col flex"
           >
             {email}
-            <span className="mt-1">
+            <span className="mt-2">
               <a 
                 href={mailto}
                 className="text-sm bg-red-mg hover:bg-red-mg/80 px-3 py-1 rounded-full text-white" 
@@ -307,7 +366,7 @@ export const ContactCard = ({ image, title, subtitle, email, tel, mailto, telto,
             className="flex-col flex text-base"
           >
             {tel}
-            <span className="mt-1">
+            <span className="mt-2">
               <a 
                 href={telto}
                 className="text-sm bg-red-mg hover:bg-red-mg/80 px-3 py-1 rounded-full text-white" 
