@@ -77,10 +77,10 @@ export const Navbar = () => {
           </Link>
           <ButtonDropdown 
             title={t('navbarLinks.Filters')}
-              array={links.map(link => ({
-                ...link,
-                link: `${langPrefix}${link.link}`
-              }))}
+            array={links.map(link => ({
+              ...link,
+              link: `${langPrefix}${link.link}`
+            }))}
           />
           <Link to={`${langPrefix}/aboutus`} className="hover:text-red-mg">
             {t('navbarLinks.AboutUs')}

@@ -1,5 +1,3 @@
-// import ImageSIMEI from "../../assets/simei-2017-logo.jpg"
-// import ImageDrinktec from "../../assets/coversimeidrinktec.jpg"
 import Logo from "../../assets/mg-filtration-logo-footer.png"
 import { useTranslation } from "react-i18next";
 
@@ -18,19 +16,6 @@ export const Footer = () => {
           bg-[url(./assets/background-footer-4.jpg)] bg-bottom bg-cover"
       >
         <div className="flex max-lg:flex-col mx-auto max-lg:w-11/12 w-[80rem] gap-20 max-lg:gap-10 max-w-[95vw] justify-between">
-
-          {/* <div className="flex gap-6 max-md:flex-col max-md:mt-6">
-            <img 
-              src={ImageSIMEI} 
-              alt=""
-              className="h-[100px] object-contain" 
-            />
-            <img 
-              src={ImageDrinktec} 
-              alt=""
-              className="h-[100px] object-contain" 
-            />
-          </div> */}
 
           <div className="bg-black-mg/50 w-fit text-white p-4 flex mx-auto">
             <div className="flex flex-col gap-3">
@@ -61,7 +46,7 @@ export const Footer = () => {
               <div className="m-auto max-lg:hidden mb-0">
                 <img 
                   src={Logo} 
-                  alt="" 
+                  alt="MG Filtration Technology" 
                   className="w-6/12"
                 />
               </div>

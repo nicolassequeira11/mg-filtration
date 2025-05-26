@@ -30,7 +30,7 @@ export const ButtonLanguageSelection = ({ selected, setSelected, options }: Butt
         >
           <span className="col-start-1 row-start-1 flex items-center gap-3 pr-6">
             <img
-              alt={selected.name}
+              alt=""
               src={selected.avatar}
               className="size-5 shrink-0 rounded-full object-cover"
             />
